@@ -1,0 +1,8 @@
+check,fixed_pqc,darp_policy,full_darp
+Valid encrypted signed transaction,ACCEPT,ACCEPT,ACCEPT
+Enforce third-party acknowledgement,NOT_IMPLEMENTED,NOT_IMPLEMENTED,ENFORCED
+Enforce sub-tier acknowledgement,NOT_IMPLEMENTED,NOT_IMPLEMENTED,ENFORCED
+Missing sub-tier acknowledgement,NOT_IMPLEMENTED,NOT_IMPLEMENTED,REJECT
+Missing all external acknowledgements,NOT_IMPLEMENTED,NOT_IMPLEMENTED,REJECT
+Duplicate external acknowledgement,NOT_IMPLEMENTED,NOT_IMPLEMENTED,REJECT
+Old policy epoch after synthetic revision,NO_POLICY_EPOCH_CHECK,REJECT,REJECT

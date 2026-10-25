@@ -1,0 +1,12 @@
+{
+  "risk_ranking_first_asset": "A022",
+  "risk_ranking_first_asset_name": "Fraud Detection API",
+  "original_algorithm": "ECDSA-256",
+  "banking_service": "Fraud Detection",
+  "old_algorithm_target_control": "ML-DSA-65 for signatures; ML-KEM-768 for confidentiality",
+  "remediation_delta_er_from_existing_simulation": 0.0384759745825326,
+  "demonstration": "Read synthetic fraud alert with ML-KEM-768 sealed payload + ML-DSA-65 RBAC/signature",
+  "transaction_recovered": true,
+  "authorization_accepted": true,
+  "limitations": "Demonstration is not a live replacement of the API cryptosystem; the existing counterfactual ER simulation is unchanged."
+}

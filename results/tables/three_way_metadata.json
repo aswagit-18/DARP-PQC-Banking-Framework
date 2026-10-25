@@ -1,0 +1,16 @@
+{
+  "description": "Controlled same-host, same-service and same-suite comparison",
+  "host": {
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "python": "3.13.5",
+    "openssl": "OpenSSL 3.6.5 29 Sep 2026 (Library: OpenSSL 3.6.5 29 Sep 2026)",
+    "iterations_per_variant": 20,
+    "algorithm_suite": "ML-KEM-1024 + ML-DSA-87 + AES-256-GCM",
+    "service": "S01",
+    "input_transaction": "Synthetic only"
+  },
+  "baseline_is_paper_inspired_not_exact_reproduction": true,
+  "scope": "No live customers, vendors, network, TLS, HSM or production keys",
+  "security_claims": "Tests demonstrate implemented policy enforcement, not a security proof or vendor PQC deployment",
+  "ecosystem_risk_before_simulated_migration": 0.7787266434887499
+}

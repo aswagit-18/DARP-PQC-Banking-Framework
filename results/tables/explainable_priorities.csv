@@ -1,0 +1,16 @@
+priority_rank,asset_id,asset_name,tier,algorithm,delta_er,migration_cost,priority_score,affected_service_count,affected_services,strongest_path_risk,average_path_risk,max_path_length,path_count,strongest_dependency_path
+1,A022,Fraud Detection API,Internal,ECDSA-256,0.0384759745825326,0.75,0.0513012994433768,1,Fraud Detection,0.8439000000000001,0.8439000000000001,1,1,Fraud Detection -> Fraud Detection API
+2,A018,Loan Processing API,Internal,ECDSA-256,0.030948824522931018,0.65,0.047613576189124644,1,Loan Processing,0.7189000000000002,0.7189000000000002,1,1,Loan Processing -> Loan Processing API
+3,A005,Mobile API Gateway,Internal,ECDH-256,0.030646267807135308,0.65,0.047148104318669705,1,Mobile Banking,0.8460000000000001,0.8460000000000001,1,1,Mobile Banking -> Mobile API Gateway
+4,A008,Internet API Gateway,Internal,RSA-2048,0.03114470449655904,0.7,0.044492434995084346,1,Internet Banking,0.7740000000000001,0.7740000000000001,1,1,Internet Banking -> Internet API Gateway
+5,A009,Internet Authentication,Internal,ECDSA-256,0.03162061773566971,0.75,0.04216082364755961,1,Internet Banking,0.7727999999999999,0.7727999999999999,1,1,Internet Banking -> Internet Authentication
+6,A020,KYC API,Internal,RSA-2048,0.0315085306821522,0.75,0.042011374242869604,1,KYC Service,0.7308000000000001,0.7308000000000001,1,1,KYC Service -> KYC API
+7,A016,Customer Identity Server,Internal,RSA-3072,0.03550174808506179,0.85,0.041766762453013875,1,Customer Authentication,0.7392,0.7392,1,1,Customer Authentication -> Customer Identity Server
+8,A014,Instant Payment Gateway,Internal,ECDSA-256,0.03204548109104788,0.8,0.04005685136380985,1,Instant Payments,0.7695,0.7695,1,1,Instant Payments -> Instant Payment Gateway
+9,A012,Card Transaction Server,Internal,RSA-3072,0.03208178901615033,0.85,0.037743281195470976,1,Card Payments,0.9023999999999999,0.9023999999999999,1,1,Card Payments -> Card Transaction Server
+10,A010,ATM Controller,Internal,RSA-2048,0.020215918416494838,0.65,0.031101412948453595,1,ATM Network,0.7938000000000002,0.7938000000000002,1,1,ATM Network -> ATM Controller
+11,A025,Enterprise Message Broker,Internal,ECDH-256,0.022390386322223454,0.75,0.029853848429631274,3,Core Banking; Fraud Detection; Loan Processing,0.8513999999999999,0.7019033333333332,2,3,Core Banking -> Enterprise Message Broker
+12,A001,Core Banking PKI,Internal,RSA-2048,0.023763546700672378,0.8,0.029704433375840472,4,Card Payments; Core Banking; Customer Authentication; Instant Payments,0.85164,0.74643075,2,4,Core Banking -> Core Banking PKI
+13,A011,ATM HSM,Internal,ECDH-256,0.01893354843767847,0.8,0.02366693554709809,1,ATM Network,0.7371000000000001,0.7371000000000001,1,1,ATM Network -> ATM HSM
+14,A026,Cloud KMS,Third-Party,ECC-256,0.01604916583941296,0.8,0.0200614572992662,4,Card Payments; Core Banking; Customer Authentication; Instant Payments,0.8742,0.7662037500000001,3,4,Core Banking -> Core Banking PKI -> Cloud KMS
+15,A041,Cloud Sub-KMS,Sub-Tier,RSA-2048,0.017574536843494637,0.9,0.019527263159438486,7,ATM Network; Card Payments; Core Banking; Customer Authentication; Instant Payments; Internet Banking; Mobile Banking,0.7698600000000001,0.6071286000000001,4,7,Core Banking -> Core Banking PKI -> Cloud KMS -> Cloud Sub-KMS

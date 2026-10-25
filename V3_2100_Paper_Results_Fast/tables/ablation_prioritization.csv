@@ -1,0 +1,4 @@
+strategy,migration_budget,budget_used,number_of_assets_migrated,initial_er,final_er,cumulative_delta_er,risk_reduction_per_cost,risk_reduction_percent,variant
+Proposed Dynamic DeltaER/Cost,7.5,7.479999999999999,16,0.6024188147973415,0.5497761797517858,0.052642635045555664,0.007037785433897817,8.738544307130425,Full dynamic DeltaER/Cost
+Static initial DeltaER/Cost,7.5,7.379999999999999,17,0.6024188147973415,0.5509653127594973,0.05145350203784416,0.006972019246320347,8.541151234652842,Static initial DeltaER/Cost
+Dynamic DeltaER only (no cost normalization),7.5,7.430000000000001,13,0.6024188147973415,0.5513999663349987,0.051018848462342836,0.006866601408121511,8.468999840170328,Dynamic DeltaER only (no cost normalization)

@@ -1,0 +1,17 @@
+flowchart TD
+ S[Banking transaction] --> R[Internal third party sub tier risk graph]
+ R --> P[Risk snapshot and PQC policy epoch]
+ P --> Q[Select high-risk direct and sub tier providers]
+ Q --> A[Separate ML-DSA signed acknowledgements]
+ A --> V{Trusted signatures freshness record policy?}
+ V -- No --> D[REJECT]
+ V -- Yes --> G[Strict banking gateway]
+ G --> B[Employee ML-DSA role-based authorization]
+ B --> K[ML-KEM-768 or ML-KEM-1024]
+ K --> E[HKDF-SHA256 plus AES-256-GCM]
+ E --> Z[Authenticated encrypted record]
+ Z --> T[Verify decrypt and reject replay]
+ T -- Pass --> OK[ACCEPT]
+ T -- Fail --> D
+ R --> M[Migration counterfactual and delta risk per cost]
+ M --> R

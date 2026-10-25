@@ -1,0 +1,4 @@
+topology_variant,assets,dependencies,ecosystem_risk,risk_change_vs_full
+Full Internal + Third-Party + Sub-Tier,50,77,0.7787266434887499,0.0
+No Sub-Tier,40,57,0.7707240846301522,-0.008002558858597686
+Internal Only,25,36,0.7539829510879076,-0.024743692400842288

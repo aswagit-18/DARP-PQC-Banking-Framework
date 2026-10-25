@@ -1,0 +1,11 @@
+{
+  "benchmark_description": "Prototype wall-clock (OpenSSL CLI invocation + temp-file I/O), not raw primitive latency",
+  "python": "3.13.5",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "processor": "arm",
+  "openssl": "OpenSSL 3.6.5 29 Sep 2026 (Library: OpenSSL 3.6.5 29 Sep 2026)",
+  "iterations_per_operation": 100,
+  "input_message_bytes": 56,
+  "notes": "No network, TLS, HSM, banking database or actual customer workload. No direct numerical speed comparisons to other papers across environments. Benchmarks fluctuate."
+}

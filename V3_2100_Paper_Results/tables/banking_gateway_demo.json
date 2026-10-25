@@ -1,0 +1,53 @@
+{
+  "dataset": "V3 synthetic",
+  "banking_service": "S01",
+  "ecosystem_risk": 0.6024188147973415,
+  "algorithm": "DARP-PQC + Cross-Tier Assurance Gate",
+  "key_establishment": "ML-KEM-1024",
+  "authenticated_encryption": "AES-256-GCM + HKDF-SHA256",
+  "bank_signature": "ML-DSA-87",
+  "vendor_signatures": [
+    "ML-DSA-65",
+    "ML-DSA-65"
+  ],
+  "required_providers": [
+    {
+      "service_id": "S01",
+      "asset_id": "A026",
+      "tier": "Third-Party",
+      "provider": "Cloud Provider A",
+      "path_risk": 0.8742,
+      "path": [
+        "S01",
+        "A001",
+        "A026"
+      ]
+    },
+    {
+      "service_id": "S01",
+      "asset_id": "A041",
+      "tier": "Sub-Tier",
+      "provider": "Cloud Sub-Vendor A",
+      "path_risk": 0.76986,
+      "path": [
+        "S01",
+        "A001",
+        "A026",
+        "A041"
+      ]
+    }
+  ],
+  "encrypted_decryption_successful": true,
+  "signed_third_party_and_subtier_evidence_verified": {
+    "verified": true,
+    "provider_assets": [
+      "A026",
+      "A041"
+    ],
+    "third_party": 1,
+    "sub_tier": 1
+  },
+  "access_control": "teller role authorized",
+  "replay_attack": "REJECTED",
+  "not_a_proof_of_vendor_pqc_migration": true
+}

@@ -1,0 +1,51 @@
+asset_id,asset_name,asset_type,tier,service_id,provider_type,algorithm,key_size,crypto_function,data_sensitivity,data_lifetime,business_criticality,external_exposure,hndl_exposure,migration_complexity,quantum_vulnerability,provider,quantum_risk_category
+A001,Core Banking PKI,PKI,Internal,S01,Bank,RSA-2048,2048,Signature,0.98,0.95,1.0,0.7,1.0,0.8,0.9,Bank,Critical
+A002,Core Banking HSM,HSM,Internal,S01,Bank,ECDH-256,256,Key Exchange,1.0,0.95,1.0,0.4,0.9,0.85,0.9,Bank,Critical
+A003,Transaction Database,Database,Internal,S01,Bank,AES-256,256,Encryption,0.0,0.95,0.9,0.3,0.85,0.7,0.2,Bank,Low
+A004,Account Management API,API,Internal,S01,Bank,ECDSA-256,256,Signature,0.95,0.85,1.0,1.0,0.9,0.7,0.9,Bank,Critical
+A005,Mobile API Gateway,API Gateway,Internal,S02,Bank,ECDH-256,256,Key Exchange,0.9,0.8,0.9,1.0,0.85,0.65,0.9,Bank,Critical
+A006,Mobile Authentication,Authentication Server,Internal,S02,Bank,ML-DSA,0,Digital Signature,0.95,0.8,0.95,1.0,0.9,0.75,0.1,Bank,Low
+A007,Mobile Session Store,Database,Internal,S02,Bank,AES-256,256,Encryption,0.0,0.75,0.8,0.9,0.7,0.55,0.2,Bank,Low
+A008,Internet API Gateway,API Gateway,Internal,S03,Bank,RSA-2048,2048,Key Exchange,0.9,0.8,0.9,1.0,0.85,0.7,0.9,Bank,Critical
+A009,Internet Authentication,Authentication Server,Internal,S03,Bank,ECDSA-256,256,Signature,0.95,0.8,0.95,1.0,0.9,0.75,0.9,Bank,Critical
+A010,ATM Controller,ATM Controller,Internal,S04,Bank,RSA-2048,2048,Signature,0.8,0.7,0.85,0.8,0.75,0.65,0.9,Bank,Critical
+A011,ATM HSM,HSM,Internal,S04,Bank,ECDH-256,256,Key Exchange,0.85,0.8,0.9,0.6,0.8,0.8,0.9,Bank,Critical
+A012,Card Transaction Server,Transaction Server,Internal,S05,Bank,RSA-3072,3072,Signature,0.95,0.9,1.0,0.95,0.95,0.85,0.9,Bank,Critical
+A013,Card Tokenization,Tokenization Service,Internal,S05,Bank,AES-256,256,Encryption,0.0,0.9,0.95,0.85,0.85,0.7,0.2,Bank,Low
+A014,Instant Payment Gateway,Payment Server,Internal,S06,Bank,ECDSA-256,256,Signature,1.0,0.85,1.0,1.0,1.0,0.8,0.9,Bank,Critical
+A015,Instant Payment KEX,Key Service,Internal,S06,Bank,ML-KEM,0,Key Encapsulation,1.0,0.9,1.0,1.0,1.0,0.85,0.1,Bank,Low
+A016,Customer Identity Server,Identity Server,Internal,S07,Bank,RSA-3072,3072,Signature,1.0,0.95,1.0,0.95,1.0,0.85,0.9,Bank,Critical
+A017,Identity Key Store,Key Store,Internal,S07,Bank,AES-256,256,Encryption,0.0,1.0,1.0,0.8,1.0,0.9,0.2,Bank,Low
+A018,Loan Processing API,API,Internal,S08,Bank,ECDSA-256,256,Signature,0.8,0.75,0.7,0.8,0.7,0.65,0.9,Bank,Critical
+A019,Loan Document Store,Database,Internal,S08,Bank,AES-256,256,Encryption,0.0,0.85,0.75,0.6,0.8,0.6,0.2,Bank,Low
+A020,KYC API,API,Internal,S09,Bank,RSA-2048,2048,Signature,0.9,0.85,0.75,0.95,0.9,0.75,0.9,Bank,Critical
+A021,KYC Database,Database,Internal,S09,Bank,AES-256,256,Encryption,0.0,0.95,0.85,0.6,0.85,0.7,0.2,Bank,Low
+A022,Fraud Detection API,API,Internal,S10,Bank,ECDSA-256,256,Signature,0.9,0.8,0.85,0.9,0.85,0.75,0.9,Bank,Critical
+A023,Fraud Model Store,Database,Internal,S10,Bank,AES-256,256,Encryption,0.0,0.85,0.8,0.5,0.75,0.65,0.2,Bank,Low
+A024,Internal Certificate Authority,CA,Internal,S01,Bank,RSA-2048,2048,Signature,0.9,0.95,0.95,0.4,0.95,0.8,0.9,Bank,Critical
+A025,Enterprise Message Broker,Message Broker,Internal,S01,Bank,ECDH-256,256,Key Exchange,0.85,0.8,0.95,0.8,0.85,0.75,0.9,Bank,Critical
+A026,Cloud KMS,KMS,Third-Party,S01,Vendor,ECC-256,256,Key Management,1.0,0.9,0.95,0.9,1.0,0.8,0.9,Cloud Provider A,Critical
+A027,Payment Gateway,Payment Gateway,Third-Party,S06,Vendor,RSA-2048,2048,Signature,0.95,0.85,1.0,1.0,1.0,0.75,0.9,Payment Provider A,Critical
+A028,Identity Provider,Identity Provider,Third-Party,S07,Vendor,ECDSA-256,256,Signature,1.0,0.9,1.0,1.0,1.0,0.8,0.9,Identity Provider A,Critical
+A029,External CA,Certificate Authority,Third-Party,S07,Vendor,ML-DSA,0,Digital Signature,1.0,0.95,0.95,0.8,1.0,0.75,0.1,Certificate Provider A,Low
+A030,Cloud Database,Database,Third-Party,S01,Vendor,AES-256,256,Encryption,0.0,0.95,0.95,0.9,0.95,0.85,0.2,Cloud Provider A,Low
+A031,SMS OTP Provider,Authentication Provider,Third-Party,S07,Vendor,RSA-2048,2048,Key Exchange,0.9,0.8,0.9,1.0,0.9,0.65,0.9,Telecom Provider A,Critical
+A032,KYC Verification Provider,KYC Provider,Third-Party,S09,Vendor,ECDSA-256,256,Signature,0.95,0.9,0.8,1.0,0.9,0.7,0.9,KYC Provider A,Critical
+A033,Fraud Intelligence Provider,Fraud Provider,Third-Party,S10,Vendor,ECDH-256,256,Key Exchange,0.85,0.75,0.8,0.9,0.8,0.7,0.9,Fraud Provider A,Critical
+A034,Card Network Interface,Payment Network,Third-Party,S05,Vendor,ECDSA-256,256,Signature,0.95,0.9,1.0,1.0,1.0,0.8,0.9,Card Network A,Critical
+A035,Cloud HSM,HSM,Third-Party,S01,Vendor,ML-KEM,0,Key Encapsulation,1.0,0.95,0.95,0.8,1.0,0.9,0.1,Cloud Provider B,Low
+A036,API Management Service,API Gateway,Third-Party,S02,Vendor,ECDH-256,256,Key Exchange,0.85,0.75,0.85,1.0,0.8,0.7,0.9,Cloud Provider B,Critical
+A037,Managed PKI Service,PKI,Third-Party,S03,Vendor,RSA-2048,2048,Signature,0.9,0.85,0.9,0.8,0.9,0.75,0.9,PKI Provider B,Critical
+A038,Secure File Transfer Provider,File Transfer,Third-Party,S08,Vendor,RSA-2048,2048,Key Exchange,0.8,0.8,0.7,0.85,0.75,0.65,0.9,Transfer Provider A,Critical
+A039,Customer Notification Service,Notification,Third-Party,S02,Vendor,AES-256,256,Encryption,0.0,0.65,0.6,0.95,0.65,0.55,0.2,Notification Provider A,Low
+A040,Third-Party Analytics,Analytics,Third-Party,S10,Vendor,AES-256,256,Encryption,0.0,0.7,0.6,0.9,0.6,0.55,0.2,Analytics Provider A,Low
+A041,Cloud Sub-KMS,KMS,Sub-Tier,S01,Vendor,RSA-2048,2048,Key Management,0.95,1.0,0.9,0.8,1.0,0.9,0.9,Cloud Sub-Vendor A,Critical
+A042,Sub-tier HSM Service,HSM,Sub-Tier,S06,Vendor,ECDH-256,256,Key Exchange,1.0,0.95,0.95,0.7,1.0,0.9,0.9,HSM Sub-Vendor A,Critical
+A043,Sub-tier Certificate Service,CA,Sub-Tier,S07,Vendor,RSA-2048,2048,Signature,1.0,1.0,0.95,0.7,1.0,0.85,0.9,Certificate Sub-Vendor A,Critical
+A044,Sub-tier Payment Module,Payment Module,Sub-Tier,S06,Vendor,ECDSA-256,256,Signature,1.0,0.9,1.0,0.9,1.0,0.8,0.9,Payment Sub-Vendor A,Critical
+A045,Sub-tier API Library,Software Library,Sub-Tier,S02,Vendor,ECDH-256,256,Key Exchange,0.85,0.8,0.85,0.95,0.85,0.7,0.9,Software Sub-Vendor A,Critical
+A046,Sub-tier Identity Module,Identity Module,Sub-Tier,S07,Vendor,RSA-2048,2048,Signature,0.95,0.9,0.95,0.9,0.95,0.85,0.9,Identity Sub-Vendor A,Critical
+A047,Sub-tier Cloud Database,Database,Sub-Tier,S01,Vendor,AES-128,128,Encryption,0.0,0.95,0.9,0.8,0.95,0.85,0.45,Cloud Sub-Vendor B,Moderate
+A048,Sub-tier KYC Engine,KYC Module,Sub-Tier,S09,Vendor,ECDSA-256,256,Signature,0.95,0.85,0.8,0.85,0.9,0.75,0.9,KYC Sub-Vendor A,Critical
+A049,Sub-tier Fraud Feed,Threat Feed,Sub-Tier,S10,Vendor,ECDH-256,256,Key Exchange,0.8,0.75,0.8,0.9,0.8,0.7,0.9,Fraud Sub-Vendor A,Critical
+A050,Sub-tier Card Token Service,Tokenization,Sub-Tier,S05,Vendor,RSA-2048,2048,Key Management,0.95,0.9,1.0,0.9,1.0,0.85,0.9,Card Sub-Vendor A,Critical

@@ -1,0 +1,4 @@
+variant,service_id,kem,signature,iterations,median_ms,mean_ms,p95_ms,median_envelope_bytes,provider_signatures_per_transaction
+Fixed PQC (paper-inspired),S01,ML-KEM-1024,ML-DSA-87,20,79.305,79.857,93.772,19556,0
+DARP-PQC without tier gate,S01,ML-KEM-1024,ML-DSA-87,20,78.86,79.313,84.643,20704,0
+Full DARP-PQC with tier gate,S01,ML-KEM-1024,ML-DSA-87,20,155.451,157.998,169.761,34204,2

@@ -1,0 +1,9 @@
+{
+  "assets": 2100,
+  "services": 60,
+  "dependency_rows": 2862,
+  "unique_edges": 2856,
+  "initial_er": 0.6024188147973415,
+  "vulnerable_assets": 1266,
+  "synthetic": true
+}

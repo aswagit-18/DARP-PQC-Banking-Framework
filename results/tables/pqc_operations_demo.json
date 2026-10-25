@@ -1,0 +1,15 @@
+{
+  "openssl_version": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)",
+  "key_establishment": "ML-KEM-768",
+  "encryption": "HKDF-SHA256 + AES-256-GCM",
+  "signature": "ML-DSA-65",
+  "access_control": "ML-DSA-65 authenticated role-based access control",
+  "decryption_roundtrip_pass": true,
+  "signature_verified_and_access_granted": true,
+  "replay_blocked": true,
+  "unauthorized_role_blocked": true,
+  "kem_ciphertext_bytes": 1088,
+  "transaction_signature_bytes": 3309,
+  "synthetic_service_id": "S06",
+  "synthetic_transaction_hash": "a5b51b4167d489589f7d248143ad9e78ec67013a8768d049d28ada93f2620bed"
+}

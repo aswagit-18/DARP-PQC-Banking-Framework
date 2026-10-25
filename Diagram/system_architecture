@@ -1,0 +1,36 @@
+digraph PQC_System_Architecture {
+	bgcolor=white nodesep=0.5 rankdir=TB ranksep=0.6 splines=ortho
+	node [color="#1F4E79" fillcolor="#EAF2F8" fontname="Times New Roman" fontsize=11 penwidth=1.5 shape=box style="rounded,filled"]
+	edge [arrowsize=0.8 color="#404040" penwidth=1.2]
+	dataset [label="SYNTHETIC DIGITAL BANKING ECOSYSTEM
+250 Assets | 20 Banking Services | 720 Dependencies"]
+	loader [label="DATA LOADING AND VALIDATION
+Assets | Services | Dependencies"]
+	risk [label="DIRECT QUANTUM RISK MODEL
+Quantum Vulnerability + Data Sensitivity
++ Data Lifetime + Business Criticality
++ External Exposure"]
+	"graph" [label="MULTI-TIER DEPENDENCY GRAPH
+Service → Internal → Third-Party → Sub-Tier"]
+	propagation [label="PATH-AWARE RISK PROPAGATION
+Path Risk = Direct Risk × Product(Dependency Strengths)"]
+	service [label="SERVICE-LEVEL RISK
+Direct Service Risk + Inherited Quantum Risk"]
+	ecosystem [label="ECOSYSTEM-WIDE QUANTUM RISK
+Criticality-Weighted ER Score"]
+	remediation [label="PQC REMEDIATION SIMULATION
+Delta ER = ER_before - ER_after"]
+	priority [label="DYNAMIC MIGRATION PRIORITIZATION
+Priority = Delta ER / Migration Cost"]
+	output [label="EXPERIMENTAL OUTPUTS
+Migration Ranking | Comparison Tables | Figures"]
+	dataset -> loader
+	loader -> risk
+	risk -> "graph"
+	"graph" -> propagation
+	propagation -> service
+	service -> ecosystem
+	ecosystem -> remediation
+	remediation -> priority
+	priority -> output
+}

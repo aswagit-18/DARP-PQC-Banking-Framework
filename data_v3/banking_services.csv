@@ -1,0 +1,61 @@
+service_id,service_name,criticality,data_sensitivity,transaction_type
+S01,Core Banking,1.0,1.0,Account Management
+S02,Mobile Banking,0.9,0.9,Mobile Transactions
+S03,Internet Banking,0.9,0.9,Online Transactions
+S04,ATM Network,0.85,0.8,Cash Withdrawal
+S05,Card Payments,1.0,1.0,Card Transaction
+S06,Instant Payments,1.0,1.0,Real-Time Payment
+S07,Customer Authentication,1.0,1.0,Authentication
+S08,Loan Processing,0.7,0.8,Loan Transaction
+S09,KYC Service,0.75,0.9,Identity Verification
+S10,Fraud Detection,0.85,0.9,Fraud Analysis
+S11,Treasury Management,0.87,0.82,Treasury Management
+S12,SWIFT and Interbank,0.95,0.72,SWIFT and Interbank
+S13,Merchant Acquiring,0.83,0.80,Merchant Acquiring
+S14,Open Banking APIs,0.90,0.85,Open Banking APIs
+S15,Trade Finance,0.84,0.97,Trade Finance
+S16,Regulatory Reporting,0.73,0.90,Regulatory Reporting
+S17,Customer Data Platform,0.88,0.74,Customer Data Platform
+S18,Document Management,0.85,0.74,Document Management
+S19,Branch Operations,0.81,0.95,Branch Operations
+S20,Payment Settlement,0.80,0.77,Payment Settlement
+S21,Wealth Management,0.77,0.98,Wealth Management
+S22,Investment Portfolio,0.90,0.75,Investment Portfolio
+S23,Corporate Lending,0.74,0.97,Corporate Lending
+S24,Mortgage Servicing,0.77,0.92,Mortgage Servicing
+S25,Insurance Distribution,0.73,0.88,Insurance Distribution
+S26,Customer CRM,0.83,0.86,Customer CRM
+S27,Debt Collection,0.77,0.80,Debt Collection
+S28,Foreign Exchange,0.85,0.95,Foreign Exchange
+S29,Liquidity Risk,0.76,0.78,Liquidity Risk
+S30,Fraud Case Management,0.83,0.75,Fraud Case Management
+S31,Anti-Money Laundering,0.98,0.83,Anti-Money Laundering
+S32,Sanctions Screening,0.78,0.72,Sanctions Screening
+S33,Customer Onboarding,0.82,0.90,Customer Onboarding
+S34,Credit Risk,0.80,0.92,Credit Risk
+S35,Merchant Risk,0.89,0.73,Merchant Risk
+S36,Card Token Services,0.75,0.79,Card Token Services
+S37,Mobile Wallet,0.79,0.89,Mobile Wallet
+S38,Digital Identity,0.98,0.80,Digital Identity
+S39,Instant Transfer Router,0.78,0.86,Instant Transfer Router
+S40,Banking Event Stream,0.97,0.74,Banking Event Stream
+S41,Deposit Operations,0.83,0.74,Deposit Operations
+S42,Cheque Clearing,0.92,0.78,Cheque Clearing
+S43,Payment Reconciliation,0.90,0.78,Payment Reconciliation
+S44,Account Recovery,0.94,0.72,Account Recovery
+S45,Digital Statements,0.85,0.77,Digital Statements
+S46,Secure Notifications,0.76,0.86,Secure Notifications
+S47,Customer Consent,0.98,0.93,Customer Consent
+S48,Loan Origination,0.86,0.77,Loan Origination
+S49,Credit Bureau Gateway,0.81,0.96,Credit Bureau Gateway
+S50,ATM Cash Logistics,0.96,0.78,ATM Cash Logistics
+S51,Chargeback Processing,0.88,0.82,Chargeback Processing
+S52,Merchant Disputes,0.91,0.99,Merchant Disputes
+S53,Financial Planning,0.77,0.79,Financial Planning
+S54,Treasury Settlement,0.80,0.76,Treasury Settlement
+S55,Compliance Monitoring,0.85,0.91,Compliance Monitoring
+S56,Operational Resilience,0.80,0.96,Operational Resilience
+S57,Interbank Messaging,0.82,0.92,Interbank Messaging
+S58,Audit Logging,0.81,0.78,Audit Logging
+S59,Collateral Management,0.90,0.91,Collateral Management
+S60,High-Value Payments,0.80,0.93,High-Value Payments

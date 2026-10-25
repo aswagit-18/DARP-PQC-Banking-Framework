@@ -1,0 +1,721 @@
+dependency_id,source_id,target_id,dependency_type,dependency_strength,crypto_dependency,data_dependency,critical_dependency
+D0001,S01,A001,Uses,0.95,1,1,1
+D0002,S01,A002,Uses,0.82,1,1,1
+D0003,S01,A003,Uses,0.92,1,0,1
+D0004,S01,A004,Uses,0.86,1,1,1
+D0005,S01,A005,Uses,0.99,1,1,1
+D0006,S01,A006,Uses,0.97,1,0,1
+D0007,S01,A007,Uses,0.98,1,1,1
+D0008,S02,A008,Uses,0.84,1,1,1
+D0009,S02,A009,Uses,0.95,1,0,1
+D0010,S02,A010,Uses,0.89,1,1,1
+D0011,S02,A011,Uses,0.98,1,1,1
+D0012,S02,A012,Uses,0.87,0,0,1
+D0013,S02,A013,Uses,0.88,1,1,1
+D0014,S02,A014,Uses,0.88,1,1,1
+D0015,S03,A015,Uses,0.94,1,1,1
+D0016,S03,A016,Uses,0.83,0,0,1
+D0017,S03,A017,Uses,0.98,1,1,1
+D0018,S03,A018,Uses,0.91,0,0,1
+D0019,S03,A019,Uses,0.94,1,1,1
+D0020,S03,A020,Uses,0.89,1,1,1
+D0021,S03,A021,Uses,0.96,1,0,1
+D0022,S04,A022,Uses,0.87,1,0,1
+D0023,S04,A023,Uses,0.98,1,0,1
+D0024,S04,A024,Uses,0.92,1,1,1
+D0025,S04,A025,Uses,0.86,1,0,1
+D0026,S04,A026,Uses,0.97,1,0,1
+D0027,S04,A027,Uses,0.85,1,1,1
+D0028,S04,A028,Uses,0.93,0,1,1
+D0029,S05,A029,Uses,0.96,1,1,1
+D0030,S05,A030,Uses,0.91,0,1,1
+D0031,S05,A031,Uses,0.99,1,0,1
+D0032,S05,A032,Uses,0.99,1,0,1
+D0033,S05,A033,Uses,0.91,1,1,1
+D0034,S05,A034,Uses,0.86,0,1,1
+D0035,S05,A035,Uses,0.96,1,1,1
+D0036,S06,A036,Uses,0.88,1,1,1
+D0037,S06,A037,Uses,0.91,1,0,1
+D0038,S06,A038,Uses,0.9,0,0,1
+D0039,S06,A039,Uses,0.89,1,1,1
+D0040,S06,A040,Uses,0.86,1,1,1
+D0041,S06,A041,Uses,0.99,1,1,1
+D0042,S06,A042,Uses,0.85,1,1,1
+D0043,S07,A043,Uses,0.97,1,1,1
+D0044,S07,A044,Uses,0.94,1,0,1
+D0045,S07,A045,Uses,0.99,1,1,1
+D0046,S07,A046,Uses,0.85,1,1,1
+D0047,S07,A047,Uses,0.95,1,0,1
+D0048,S07,A048,Uses,0.92,1,1,1
+D0049,S07,A049,Uses,0.83,0,0,1
+D0050,S08,A050,Uses,0.94,1,1,1
+D0051,S08,A051,Uses,0.97,1,0,1
+D0052,S08,A052,Uses,0.82,1,1,1
+D0053,S08,A053,Uses,0.93,1,1,1
+D0054,S08,A054,Uses,0.91,1,1,1
+D0055,S08,A055,Uses,0.92,1,1,1
+D0056,S08,A056,Uses,0.87,0,1,1
+D0057,S09,A057,Uses,0.97,1,0,1
+D0058,S09,A058,Uses,0.98,1,1,1
+D0059,S09,A059,Uses,0.85,1,1,1
+D0060,S09,A060,Uses,0.97,1,1,1
+D0061,S09,A061,Uses,0.89,1,1,1
+D0062,S09,A062,Uses,1.0,1,1,1
+D0063,S09,A063,Uses,0.97,1,0,1
+D0064,S10,A064,Uses,0.96,1,1,1
+D0065,S10,A065,Uses,0.92,1,1,1
+D0066,S10,A066,Uses,0.85,1,1,1
+D0067,S10,A067,Uses,0.96,1,0,1
+D0068,S10,A068,Uses,0.84,1,1,1
+D0069,S10,A069,Uses,0.86,0,0,1
+D0070,S10,A070,Uses,0.91,1,1,1
+D0071,S11,A071,Uses,0.99,0,1,1
+D0072,S11,A072,Uses,0.83,0,1,1
+D0073,S11,A073,Uses,0.99,1,0,1
+D0074,S11,A074,Uses,0.95,1,1,1
+D0075,S11,A075,Uses,0.85,1,0,1
+D0076,S11,A076,Uses,0.89,0,1,1
+D0077,S11,A077,Uses,0.96,1,0,1
+D0078,S12,A078,Uses,0.95,1,0,1
+D0079,S12,A079,Uses,0.83,1,0,1
+D0080,S12,A080,Uses,0.88,1,0,1
+D0081,S12,A081,Uses,0.89,1,1,1
+D0082,S12,A082,Uses,0.87,0,1,1
+D0083,S12,A083,Uses,0.88,0,1,1
+D0084,S12,A084,Uses,0.94,1,1,1
+D0085,S13,A085,Uses,0.93,1,0,1
+D0086,S13,A086,Uses,0.83,1,0,1
+D0087,S13,A087,Uses,0.93,1,1,1
+D0088,S13,A088,Uses,0.84,1,1,1
+D0089,S13,A089,Uses,0.88,1,1,1
+D0090,S13,A090,Uses,0.85,1,1,1
+D0091,S13,A091,Uses,0.89,1,1,1
+D0092,S14,A092,Uses,0.84,1,1,1
+D0093,S14,A093,Uses,0.89,1,1,1
+D0094,S14,A094,Uses,0.84,0,0,1
+D0095,S14,A095,Uses,1.0,1,1,1
+D0096,S14,A096,Uses,0.89,1,1,1
+D0097,S14,A097,Uses,0.91,1,1,1
+D0098,S14,A098,Uses,0.9,1,1,1
+D0099,S15,A099,Uses,0.87,1,1,1
+D0100,S15,A100,Uses,0.93,1,1,1
+D0101,S15,A101,Uses,0.87,0,1,1
+D0102,S15,A102,Uses,0.93,0,1,1
+D0103,S15,A103,Uses,0.88,0,0,1
+D0104,S15,A104,Uses,1.0,1,1,1
+D0105,S15,A105,Uses,0.99,1,1,1
+D0106,S16,A106,Uses,0.99,0,1,1
+D0107,S16,A107,Uses,0.95,1,1,1
+D0108,S16,A108,Uses,0.86,1,0,1
+D0109,S16,A109,Uses,0.89,1,1,1
+D0110,S16,A110,Uses,0.93,1,1,1
+D0111,S16,A111,Uses,0.92,0,1,1
+D0112,S16,A112,Uses,0.95,1,1,1
+D0113,S17,A113,Uses,0.94,0,0,1
+D0114,S17,A114,Uses,0.89,1,1,1
+D0115,S17,A115,Uses,0.86,1,0,1
+D0116,S17,A116,Uses,0.96,1,0,1
+D0117,S17,A117,Uses,0.91,1,1,1
+D0118,S17,A118,Uses,0.99,1,1,1
+D0119,S17,A119,Uses,0.96,1,0,1
+D0120,S18,A120,Uses,0.92,1,1,1
+D0121,S18,A121,Uses,0.96,1,1,1
+D0122,S18,A122,Uses,0.94,1,0,1
+D0123,S18,A123,Uses,0.94,1,0,1
+D0124,S18,A124,Uses,0.99,1,1,1
+D0125,S18,A125,Uses,0.87,1,1,1
+D0126,S18,A126,Uses,0.92,1,1,1
+D0127,S19,A127,Uses,0.89,1,1,1
+D0128,S19,A128,Uses,0.91,1,1,1
+D0129,S19,A129,Uses,0.84,1,0,1
+D0130,S19,A130,Uses,0.84,0,1,1
+D0131,S19,A131,Uses,0.88,1,1,1
+D0132,S19,A132,Uses,0.91,1,1,1
+D0133,S19,A133,Uses,0.95,1,1,1
+D0134,S20,A134,Uses,0.97,1,0,1
+D0135,S20,A135,Uses,0.94,1,1,1
+D0136,S20,A136,Uses,1.0,1,1,1
+D0137,S20,A137,Uses,0.85,1,0,1
+D0138,S20,A138,Uses,0.86,1,1,1
+D0139,S20,A139,Uses,0.94,1,1,1
+D0140,S20,A140,Uses,0.93,1,1,1
+D0141,A076,A141,Third-Party Dependency,0.65,1,1,0
+D0142,A056,A142,Third-Party Dependency,0.89,1,1,1
+D0143,A036,A143,Third-Party Dependency,0.71,1,1,0
+D0144,A059,A144,Third-Party Dependency,0.85,1,0,1
+D0145,A024,A145,Third-Party Dependency,0.83,1,1,1
+D0146,A003,A146,Third-Party Dependency,0.76,1,1,0
+D0147,A074,A147,Third-Party Dependency,0.86,1,1,1
+D0148,A116,A148,Third-Party Dependency,0.85,1,1,1
+D0149,A120,A149,Third-Party Dependency,0.7,1,1,0
+D0150,A076,A150,Third-Party Dependency,0.83,1,1,1
+D0151,A023,A151,Third-Party Dependency,0.84,1,1,1
+D0152,A081,A152,Third-Party Dependency,0.82,1,1,0
+D0153,A045,A153,Third-Party Dependency,0.9,1,0,1
+D0154,A097,A154,Third-Party Dependency,0.8,1,1,0
+D0155,A065,A155,Third-Party Dependency,0.8,1,1,0
+D0156,A004,A156,Third-Party Dependency,0.86,1,1,1
+D0157,A132,A157,Third-Party Dependency,0.66,1,1,0
+D0158,A093,A158,Third-Party Dependency,0.72,1,0,0
+D0159,A133,A159,Third-Party Dependency,0.87,1,1,1
+D0160,A031,A160,Third-Party Dependency,0.82,1,1,1
+D0161,A118,A161,Third-Party Dependency,0.81,1,0,0
+D0162,A071,A162,Third-Party Dependency,0.81,0,1,0
+D0163,A137,A163,Third-Party Dependency,0.88,1,0,1
+D0164,A068,A164,Third-Party Dependency,0.73,0,1,0
+D0165,A081,A165,Third-Party Dependency,0.88,1,0,1
+D0166,A016,A166,Third-Party Dependency,0.86,0,1,1
+D0167,A077,A167,Third-Party Dependency,0.7,1,1,0
+D0168,A100,A168,Third-Party Dependency,0.89,1,1,1
+D0169,A099,A169,Third-Party Dependency,0.81,1,0,0
+D0170,A139,A170,Third-Party Dependency,0.82,0,1,1
+D0171,A037,A171,Third-Party Dependency,0.89,1,0,1
+D0172,A090,A172,Third-Party Dependency,0.93,0,0,1
+D0173,A065,A173,Third-Party Dependency,0.86,1,1,1
+D0174,A083,A174,Third-Party Dependency,0.9,1,1,1
+D0175,A073,A175,Third-Party Dependency,0.69,1,1,0
+D0176,A043,A176,Third-Party Dependency,0.79,1,0,0
+D0177,A122,A177,Third-Party Dependency,0.77,1,1,0
+D0178,A134,A178,Third-Party Dependency,0.79,1,1,0
+D0179,A103,A179,Third-Party Dependency,0.68,0,1,0
+D0180,A133,A180,Third-Party Dependency,0.76,1,1,0
+D0181,A057,A181,Third-Party Dependency,0.94,0,1,1
+D0182,A016,A182,Third-Party Dependency,0.9,1,1,1
+D0183,A002,A183,Third-Party Dependency,0.91,1,0,1
+D0184,A074,A184,Third-Party Dependency,0.66,1,0,0
+D0185,A017,A185,Third-Party Dependency,0.65,0,1,0
+D0186,A054,A186,Third-Party Dependency,0.65,0,1,0
+D0187,A138,A187,Third-Party Dependency,0.92,0,1,1
+D0188,A042,A188,Third-Party Dependency,0.68,1,1,0
+D0189,A126,A189,Third-Party Dependency,0.92,1,1,1
+D0190,A018,A190,Third-Party Dependency,0.87,1,1,1
+D0191,A125,A191,Third-Party Dependency,0.86,1,1,1
+D0192,A019,A192,Third-Party Dependency,0.83,1,1,1
+D0193,A126,A193,Third-Party Dependency,0.86,0,0,1
+D0194,A081,A194,Third-Party Dependency,0.86,1,1,1
+D0195,A062,A195,Third-Party Dependency,0.87,1,1,1
+D0196,A073,A196,Third-Party Dependency,0.69,1,0,0
+D0197,A079,A197,Third-Party Dependency,0.84,1,1,1
+D0198,A040,A198,Third-Party Dependency,0.65,1,1,0
+D0199,A084,A199,Third-Party Dependency,0.71,1,0,0
+D0200,A116,A200,Third-Party Dependency,0.86,0,1,1
+D0201,A120,A201,Third-Party Dependency,0.69,1,0,0
+D0202,A046,A202,Third-Party Dependency,0.94,1,1,1
+D0203,A071,A203,Third-Party Dependency,0.84,1,1,1
+D0204,A039,A204,Third-Party Dependency,0.83,1,1,1
+D0205,A130,A205,Third-Party Dependency,0.91,1,1,1
+D0206,A108,A206,Third-Party Dependency,0.87,1,1,1
+D0207,A032,A207,Third-Party Dependency,0.8,1,1,0
+D0208,A037,A208,Third-Party Dependency,0.67,0,1,0
+D0209,A126,A209,Third-Party Dependency,0.93,1,0,1
+D0210,A038,A210,Third-Party Dependency,0.78,1,1,0
+D0211,A001,A183,Vendor Dependency,0.93,1,1,1
+D0212,A001,A156,Vendor Dependency,0.64,1,1,0
+D0213,A002,A156,Vendor Dependency,0.92,1,1,1
+D0214,A003,A156,Vendor Dependency,0.76,1,1,0
+D0215,A003,A183,Vendor Dependency,0.79,1,1,0
+D0216,A004,A146,Vendor Dependency,0.78,1,0,0
+D0217,A004,A183,Vendor Dependency,0.79,1,1,0
+D0218,A005,A146,Vendor Dependency,0.84,1,1,1
+D0219,A005,A183,Vendor Dependency,0.85,0,1,1
+D0220,A006,A183,Vendor Dependency,0.92,1,1,1
+D0221,A006,A146,Vendor Dependency,0.64,1,1,0
+D0222,A007,A146,Vendor Dependency,0.66,1,0,0
+D0223,A007,A183,Vendor Dependency,0.67,0,1,0
+D0224,A008,A145,Vendor Dependency,0.7,1,0,0
+D0225,A008,A165,Vendor Dependency,0.9,1,1,1
+D0226,A009,A190,Vendor Dependency,0.73,1,1,0
+D0227,A009,A187,Vendor Dependency,0.7,0,1,0
+D0228,A010,A181,Vendor Dependency,0.77,1,1,0
+D0229,A010,A188,Vendor Dependency,0.8,1,1,0
+D0230,A011,A161,Vendor Dependency,0.91,1,1,1
+D0231,A011,A194,Vendor Dependency,0.86,1,0,1
+D0232,A012,A176,Vendor Dependency,0.7,1,1,0
+D0233,A012,A146,Vendor Dependency,0.67,0,0,0
+D0234,A013,A171,Vendor Dependency,0.88,1,1,1
+D0235,A013,A195,Vendor Dependency,0.69,1,0,0
+D0236,A014,A142,Vendor Dependency,0.71,1,1,0
+D0237,A014,A172,Vendor Dependency,0.78,0,1,0
+D0238,A015,A182,Vendor Dependency,0.93,0,1,1
+D0239,A015,A190,Vendor Dependency,0.77,1,0,0
+D0240,A016,A192,Vendor Dependency,0.65,1,1,0
+D0241,A016,A190,Vendor Dependency,0.71,1,0,0
+D0242,A017,A182,Vendor Dependency,0.77,1,1,0
+D0243,A017,A166,Vendor Dependency,0.87,1,0,1
+D0244,A018,A166,Vendor Dependency,0.87,1,0,1
+D0245,A018,A192,Vendor Dependency,0.63,1,1,0
+D0246,A019,A185,Vendor Dependency,0.9,0,1,1
+D0247,A019,A166,Vendor Dependency,0.83,0,0,1
+D0248,A020,A190,Vendor Dependency,0.69,0,1,0
+D0249,A020,A192,Vendor Dependency,0.93,0,1,1
+D0250,A021,A166,Vendor Dependency,0.65,0,0,0
+D0251,A021,A192,Vendor Dependency,0.79,1,1,0
+D0252,A022,A145,Vendor Dependency,0.65,1,1,0
+D0253,A022,A151,Vendor Dependency,0.88,1,1,1
+D0254,A023,A145,Vendor Dependency,0.66,1,0,0
+D0255,A024,A151,Vendor Dependency,0.86,1,1,1
+D0256,A025,A151,Vendor Dependency,0.92,1,0,1
+D0257,A025,A145,Vendor Dependency,0.65,1,1,0
+D0258,A026,A151,Vendor Dependency,0.75,1,0,0
+D0259,A026,A145,Vendor Dependency,0.69,1,1,0
+D0260,A027,A145,Vendor Dependency,0.65,0,1,0
+D0261,A027,A151,Vendor Dependency,0.85,1,1,1
+D0262,A028,A145,Vendor Dependency,0.67,1,0,0
+D0263,A028,A151,Vendor Dependency,0.75,1,1,0
+D0264,A029,A207,Vendor Dependency,0.63,1,1,0
+D0265,A029,A160,Vendor Dependency,0.86,1,1,1
+D0266,A030,A160,Vendor Dependency,0.66,1,0,0
+D0267,A030,A207,Vendor Dependency,0.69,1,1,0
+D0268,A031,A207,Vendor Dependency,0.82,1,1,1
+D0269,A032,A160,Vendor Dependency,0.63,1,0,0
+D0270,A033,A160,Vendor Dependency,0.65,0,0,0
+D0271,A033,A207,Vendor Dependency,0.66,0,1,0
+D0272,A034,A160,Vendor Dependency,0.76,1,1,0
+D0273,A034,A207,Vendor Dependency,0.74,1,1,0
+D0274,A035,A207,Vendor Dependency,0.71,1,1,0
+D0275,A035,A160,Vendor Dependency,0.82,1,1,0
+D0276,A036,A210,Vendor Dependency,0.75,1,1,0
+D0277,A036,A204,Vendor Dependency,0.71,1,1,0
+D0278,A037,A143,Vendor Dependency,0.94,1,1,1
+D0279,A038,A143,Vendor Dependency,0.87,1,1,1
+D0280,A039,A198,Vendor Dependency,0.78,1,1,0
+D0281,A039,A210,Vendor Dependency,0.72,1,0,0
+D0282,A040,A171,Vendor Dependency,0.64,0,1,0
+D0283,A041,A143,Vendor Dependency,0.93,1,1,1
+D0284,A041,A198,Vendor Dependency,0.71,0,0,0
+D0285,A042,A171,Vendor Dependency,0.86,0,1,1
+D0286,A042,A143,Vendor Dependency,0.93,1,0,1
+D0287,A043,A202,Vendor Dependency,0.68,1,0,0
+D0288,A043,A153,Vendor Dependency,0.84,0,1,1
+D0289,A044,A202,Vendor Dependency,0.73,1,1,0
+D0290,A044,A176,Vendor Dependency,0.92,0,0,1
+D0291,A045,A202,Vendor Dependency,0.79,1,1,0
+D0292,A046,A176,Vendor Dependency,0.69,1,1,0
+D0293,A047,A153,Vendor Dependency,0.88,1,1,1
+D0294,A047,A202,Vendor Dependency,0.88,0,1,1
+D0295,A048,A153,Vendor Dependency,0.81,0,0,0
+D0296,A048,A176,Vendor Dependency,0.89,0,0,1
+D0297,A049,A153,Vendor Dependency,0.85,1,1,1
+D0298,A049,A202,Vendor Dependency,0.73,1,0,0
+D0299,A050,A142,Vendor Dependency,0.92,1,0,1
+D0300,A050,A186,Vendor Dependency,0.83,1,0,1
+D0301,A051,A186,Vendor Dependency,0.9,1,1,1
+D0302,A051,A142,Vendor Dependency,0.83,0,1,1
+D0303,A052,A142,Vendor Dependency,0.84,1,0,1
+D0304,A052,A186,Vendor Dependency,0.92,0,1,1
+D0305,A053,A142,Vendor Dependency,0.63,1,0,0
+D0306,A053,A186,Vendor Dependency,0.93,1,1,1
+D0307,A054,A142,Vendor Dependency,0.67,1,1,0
+D0308,A055,A186,Vendor Dependency,0.82,0,0,1
+D0309,A055,A142,Vendor Dependency,0.83,1,1,1
+D0310,A056,A186,Vendor Dependency,0.7,1,1,0
+D0311,A057,A195,Vendor Dependency,0.64,1,1,0
+D0312,A058,A181,Vendor Dependency,0.9,1,1,1
+D0313,A058,A144,Vendor Dependency,0.79,1,1,0
+D0314,A059,A181,Vendor Dependency,0.83,1,1,1
+D0315,A060,A144,Vendor Dependency,0.71,1,0,0
+D0316,A060,A195,Vendor Dependency,0.64,1,1,0
+D0317,A061,A144,Vendor Dependency,0.64,0,0,0
+D0318,A061,A195,Vendor Dependency,0.73,0,0,0
+D0319,A062,A144,Vendor Dependency,0.63,0,1,0
+D0320,A062,A181,Vendor Dependency,0.9,1,1,1
+D0321,A063,A195,Vendor Dependency,0.93,1,1,1
+D0322,A063,A181,Vendor Dependency,0.92,1,1,1
+D0323,A064,A173,Vendor Dependency,0.7,1,1,0
+D0324,A064,A155,Vendor Dependency,0.89,1,1,1
+D0325,A066,A155,Vendor Dependency,0.81,1,1,0
+D0326,A066,A173,Vendor Dependency,0.67,1,1,0
+D0327,A067,A155,Vendor Dependency,0.72,1,1,0
+D0328,A067,A164,Vendor Dependency,0.83,1,1,1
+D0329,A068,A173,Vendor Dependency,0.74,1,1,0
+D0330,A069,A155,Vendor Dependency,0.77,1,1,0
+D0331,A069,A164,Vendor Dependency,0.64,1,1,0
+D0332,A070,A173,Vendor Dependency,0.83,0,1,1
+D0333,A070,A155,Vendor Dependency,0.86,1,1,1
+D0334,A071,A150,Vendor Dependency,0.88,1,1,1
+D0335,A071,A175,Vendor Dependency,0.9,1,0,1
+D0336,A072,A141,Vendor Dependency,0.72,1,0,0
+D0337,A072,A147,Vendor Dependency,0.63,1,1,0
+D0338,A073,A147,Vendor Dependency,0.82,1,0,0
+D0339,A074,A167,Vendor Dependency,0.67,1,1,0
+D0340,A075,A141,Vendor Dependency,0.76,0,1,0
+D0341,A075,A196,Vendor Dependency,0.94,1,0,1
+D0342,A076,A162,Vendor Dependency,0.72,1,0,0
+D0343,A076,A196,Vendor Dependency,0.65,1,1,0
+D0344,A077,A162,Vendor Dependency,0.79,0,1,0
+D0345,A077,A184,Vendor Dependency,0.84,1,0,1
+D0346,A078,A152,Vendor Dependency,0.75,1,1,0
+D0347,A078,A199,Vendor Dependency,0.86,0,0,1
+D0348,A079,A152,Vendor Dependency,0.87,1,0,1
+D0349,A080,A174,Vendor Dependency,0.7,1,1,0
+D0350,A080,A199,Vendor Dependency,0.77,1,1,0
+D0351,A081,A199,Vendor Dependency,0.81,1,1,0
+D0352,A082,A197,Vendor Dependency,0.84,1,1,1
+D0353,A082,A199,Vendor Dependency,0.71,1,1,0
+D0354,A083,A152,Vendor Dependency,0.72,0,0,0
+D0355,A083,A194,Vendor Dependency,0.84,0,1,1
+D0356,A084,A152,Vendor Dependency,0.93,1,0,1
+D0357,A085,A172,Vendor Dependency,0.81,1,1,0
+D0358,A086,A172,Vendor Dependency,0.86,1,0,1
+D0359,A087,A172,Vendor Dependency,0.78,1,1,0
+D0360,A088,A172,Vendor Dependency,0.75,1,1,0
+D0361,A089,A172,Vendor Dependency,0.63,1,0,0
+D0362,A091,A172,Vendor Dependency,0.64,1,1,0
+D0363,A092,A158,Vendor Dependency,0.88,1,1,1
+D0364,A092,A154,Vendor Dependency,0.66,1,1,0
+D0365,A093,A154,Vendor Dependency,0.76,0,1,0
+D0366,A094,A154,Vendor Dependency,0.67,0,0,0
+D0367,A094,A158,Vendor Dependency,0.84,1,1,1
+D0368,A095,A158,Vendor Dependency,0.89,1,1,1
+D0369,A095,A154,Vendor Dependency,0.69,1,1,0
+D0370,A096,A154,Vendor Dependency,0.75,1,0,0
+D0371,A096,A158,Vendor Dependency,0.87,1,0,1
+D0372,A097,A158,Vendor Dependency,0.68,0,1,0
+D0373,A098,A158,Vendor Dependency,0.85,1,1,1
+D0374,A098,A154,Vendor Dependency,0.91,0,1,1
+D0375,A099,A168,Vendor Dependency,0.77,1,0,0
+D0376,A100,A169,Vendor Dependency,0.62,0,0,0
+D0377,A101,A168,Vendor Dependency,0.83,1,1,1
+D0378,A101,A179,Vendor Dependency,0.65,1,0,0
+D0379,A102,A179,Vendor Dependency,0.72,1,1,0
+D0380,A102,A169,Vendor Dependency,0.92,1,1,1
+D0381,A103,A169,Vendor Dependency,0.86,0,0,1
+D0382,A104,A168,Vendor Dependency,0.75,1,1,0
+D0383,A104,A179,Vendor Dependency,0.63,1,1,0
+D0384,A105,A179,Vendor Dependency,0.75,1,1,0
+D0385,A105,A168,Vendor Dependency,0.94,0,1,1
+D0386,A106,A206,Vendor Dependency,0.69,1,0,0
+D0387,A107,A206,Vendor Dependency,0.73,1,1,0
+D0388,A109,A206,Vendor Dependency,0.71,1,0,0
+D0389,A110,A206,Vendor Dependency,0.88,1,1,1
+D0390,A111,A206,Vendor Dependency,0.91,1,1,1
+D0391,A112,A206,Vendor Dependency,0.86,1,0,1
+D0392,A113,A161,Vendor Dependency,0.74,1,1,0
+D0393,A113,A148,Vendor Dependency,0.66,1,1,0
+D0394,A114,A200,Vendor Dependency,0.92,1,0,1
+D0395,A114,A161,Vendor Dependency,0.78,0,1,0
+D0396,A115,A200,Vendor Dependency,0.75,0,1,0
+D0397,A115,A148,Vendor Dependency,0.94,1,0,1
+D0398,A116,A161,Vendor Dependency,0.67,0,1,0
+D0399,A117,A148,Vendor Dependency,0.82,1,1,1
+D0400,A117,A161,Vendor Dependency,0.62,1,0,0
+D0401,A118,A148,Vendor Dependency,0.8,1,0,0
+D0402,A119,A200,Vendor Dependency,0.82,1,1,0
+D0403,A119,A161,Vendor Dependency,0.93,1,1,1
+D0404,A120,A209,Vendor Dependency,0.92,0,0,1
+D0405,A121,A209,Vendor Dependency,0.68,1,1,0
+D0406,A121,A193,Vendor Dependency,0.7,1,1,0
+D0407,A122,A189,Vendor Dependency,0.65,1,1,0
+D0408,A122,A209,Vendor Dependency,0.64,1,0,0
+D0409,A123,A209,Vendor Dependency,0.85,1,1,1
+D0410,A123,A177,Vendor Dependency,0.9,0,1,1
+D0411,A124,A149,Vendor Dependency,0.73,1,0,0
+D0412,A124,A209,Vendor Dependency,0.91,1,1,1
+D0413,A125,A177,Vendor Dependency,0.94,1,1,1
+D0414,A125,A189,Vendor Dependency,0.78,1,0,0
+D0415,A127,A205,Vendor Dependency,0.82,1,1,0
+D0416,A127,A159,Vendor Dependency,0.65,0,1,0
+D0417,A128,A205,Vendor Dependency,0.75,1,1,0
+D0418,A128,A180,Vendor Dependency,0.77,1,1,0
+D0419,A129,A157,Vendor Dependency,0.62,1,1,0
+D0420,A129,A180,Vendor Dependency,0.79,1,0,0
+D0421,A130,A180,Vendor Dependency,0.65,1,1,0
+D0422,A131,A205,Vendor Dependency,0.87,1,1,1
+D0423,A131,A159,Vendor Dependency,0.87,0,0,1
+D0424,A132,A159,Vendor Dependency,0.85,1,1,1
+D0425,A133,A205,Vendor Dependency,0.84,1,1,1
+D0426,A133,A157,Vendor Dependency,0.62,1,1,0
+D0427,A134,A163,Vendor Dependency,0.67,1,1,0
+D0428,A135,A163,Vendor Dependency,0.85,0,1,1
+D0429,A135,A178,Vendor Dependency,0.77,0,1,0
+D0430,A136,A170,Vendor Dependency,0.65,1,1,0
+D0431,A136,A187,Vendor Dependency,0.71,0,1,0
+D0432,A137,A170,Vendor Dependency,0.66,0,0,0
+D0433,A137,A187,Vendor Dependency,0.62,1,1,0
+D0434,A138,A170,Vendor Dependency,0.73,1,1,0
+D0435,A138,A178,Vendor Dependency,0.9,1,0,1
+D0436,A139,A178,Vendor Dependency,0.75,1,0,0
+D0437,A140,A178,Vendor Dependency,0.89,1,1,1
+D0438,A140,A163,Vendor Dependency,0.88,1,1,1
+D0439,A146,A211,Sub-Tier Dependency,0.93,0,1,1
+D0440,A164,A212,Sub-Tier Dependency,0.76,1,1,0
+D0441,A153,A213,Sub-Tier Dependency,0.73,1,1,0
+D0442,A174,A214,Sub-Tier Dependency,0.9,1,0,1
+D0443,A172,A215,Sub-Tier Dependency,0.91,1,1,1
+D0444,A188,A216,Sub-Tier Dependency,0.62,1,1,0
+D0445,A180,A217,Sub-Tier Dependency,0.78,1,0,0
+D0446,A145,A218,Sub-Tier Dependency,0.93,1,1,1
+D0447,A176,A219,Sub-Tier Dependency,0.83,1,1,1
+D0448,A178,A220,Sub-Tier Dependency,0.68,1,1,0
+D0449,A176,A221,Sub-Tier Dependency,0.65,0,0,0
+D0450,A160,A222,Sub-Tier Dependency,0.62,1,1,0
+D0451,A205,A223,Sub-Tier Dependency,0.89,0,1,1
+D0452,A151,A224,Sub-Tier Dependency,0.71,1,1,0
+D0453,A159,A225,Sub-Tier Dependency,0.68,1,1,0
+D0454,A207,A226,Sub-Tier Dependency,0.63,1,1,0
+D0455,A176,A227,Sub-Tier Dependency,0.89,1,1,1
+D0456,A153,A228,Sub-Tier Dependency,0.85,1,1,1
+D0457,A201,A229,Sub-Tier Dependency,0.79,1,1,0
+D0458,A155,A230,Sub-Tier Dependency,0.93,1,0,1
+D0459,A151,A231,Sub-Tier Dependency,0.67,1,0,0
+D0460,A173,A232,Sub-Tier Dependency,0.88,0,0,1
+D0461,A177,A233,Sub-Tier Dependency,0.79,1,1,0
+D0462,A154,A234,Sub-Tier Dependency,0.72,1,1,0
+D0463,A206,A235,Sub-Tier Dependency,0.68,1,0,0
+D0464,A177,A236,Sub-Tier Dependency,0.79,1,1,0
+D0465,A210,A237,Sub-Tier Dependency,0.77,0,0,0
+D0466,A207,A238,Sub-Tier Dependency,0.64,1,1,0
+D0467,A156,A239,Sub-Tier Dependency,0.67,0,1,0
+D0468,A161,A240,Sub-Tier Dependency,0.64,1,0,0
+D0469,A172,A241,Sub-Tier Dependency,0.8,1,1,0
+D0470,A142,A242,Sub-Tier Dependency,0.8,1,0,0
+D0471,A151,A243,Sub-Tier Dependency,0.78,1,0,0
+D0472,A191,A244,Sub-Tier Dependency,0.76,1,0,0
+D0473,A161,A245,Sub-Tier Dependency,0.84,1,0,1
+D0474,A188,A246,Sub-Tier Dependency,0.73,1,0,0
+D0475,A164,A247,Sub-Tier Dependency,0.9,1,1,1
+D0476,A195,A248,Sub-Tier Dependency,0.86,1,0,1
+D0477,A166,A249,Sub-Tier Dependency,0.75,1,1,0
+D0478,A172,A250,Sub-Tier Dependency,0.9,1,0,1
+D0479,A141,A221,Sub-Tier Dependency,0.87,1,0,1
+D0480,A141,A236,Sub-Tier Dependency,0.8,1,1,0
+D0481,A143,A246,Sub-Tier Dependency,0.63,1,0,0
+D0482,A143,A237,Sub-Tier Dependency,0.64,1,1,0
+D0483,A144,A248,Sub-Tier Dependency,0.62,1,1,0
+D0484,A145,A231,Sub-Tier Dependency,0.82,1,0,1
+D0485,A146,A239,Sub-Tier Dependency,0.68,0,0,0
+D0486,A147,A249,Sub-Tier Dependency,0.62,1,1,0
+D0487,A147,A245,Sub-Tier Dependency,0.6,1,0,0
+D0488,A148,A240,Sub-Tier Dependency,0.81,1,1,0
+D0489,A148,A245,Sub-Tier Dependency,0.85,1,1,1
+D0490,A149,A244,Sub-Tier Dependency,0.86,1,0,1
+D0491,A149,A233,Sub-Tier Dependency,0.83,0,0,1
+D0492,A150,A248,Sub-Tier Dependency,0.71,1,0,0
+D0493,A150,A233,Sub-Tier Dependency,0.82,1,1,0
+D0494,A152,A214,Sub-Tier Dependency,0.69,1,1,0
+D0495,A153,A227,Sub-Tier Dependency,0.65,0,0,0
+D0496,A155,A212,Sub-Tier Dependency,0.82,1,1,1
+D0497,A155,A232,Sub-Tier Dependency,0.83,1,0,1
+D0498,A157,A217,Sub-Tier Dependency,0.91,1,0,1
+D0499,A157,A225,Sub-Tier Dependency,0.83,1,1,1
+D0500,A158,A234,Sub-Tier Dependency,0.77,1,1,0
+D0501,A159,A223,Sub-Tier Dependency,0.58,1,0,0
+D0502,A159,A217,Sub-Tier Dependency,0.59,0,1,0
+D0503,A160,A226,Sub-Tier Dependency,0.81,1,1,0
+D0504,A162,A234,Sub-Tier Dependency,0.65,1,1,0
+D0505,A162,A237,Sub-Tier Dependency,0.75,1,1,0
+D0506,A163,A220,Sub-Tier Dependency,0.7,0,1,0
+D0507,A164,A230,Sub-Tier Dependency,0.7,1,0,0
+D0508,A164,A232,Sub-Tier Dependency,0.76,0,0,0
+D0509,A165,A214,Sub-Tier Dependency,0.58,1,1,0
+D0510,A167,A220,Sub-Tier Dependency,0.66,1,0,0
+D0511,A167,A245,Sub-Tier Dependency,0.71,1,1,0
+D0512,A168,A221,Sub-Tier Dependency,0.76,1,0,0
+D0513,A168,A214,Sub-Tier Dependency,0.86,1,0,1
+D0514,A169,A232,Sub-Tier Dependency,0.75,1,1,0
+D0515,A169,A222,Sub-Tier Dependency,0.69,1,1,0
+D0516,A170,A220,Sub-Tier Dependency,0.76,1,1,0
+D0517,A171,A237,Sub-Tier Dependency,0.84,0,1,1
+D0518,A171,A246,Sub-Tier Dependency,0.62,1,0,0
+D0519,A173,A212,Sub-Tier Dependency,0.83,1,1,1
+D0520,A175,A242,Sub-Tier Dependency,0.85,1,1,1
+D0521,A175,A215,Sub-Tier Dependency,0.66,1,1,0
+D0522,A176,A228,Sub-Tier Dependency,0.72,1,1,0
+D0523,A177,A244,Sub-Tier Dependency,0.79,1,1,0
+D0524,A179,A220,Sub-Tier Dependency,0.9,1,0,1
+D0525,A179,A241,Sub-Tier Dependency,0.68,1,0,0
+D0526,A180,A223,Sub-Tier Dependency,0.71,0,1,0
+D0527,A180,A225,Sub-Tier Dependency,0.63,1,0,0
+D0528,A181,A248,Sub-Tier Dependency,0.68,1,1,0
+D0529,A182,A249,Sub-Tier Dependency,0.8,0,1,0
+D0530,A183,A239,Sub-Tier Dependency,0.63,1,1,0
+D0531,A184,A240,Sub-Tier Dependency,0.76,0,1,0
+D0532,A184,A222,Sub-Tier Dependency,0.83,0,1,1
+D0533,A185,A249,Sub-Tier Dependency,0.89,0,1,1
+D0534,A186,A242,Sub-Tier Dependency,0.66,0,1,0
+D0535,A187,A220,Sub-Tier Dependency,0.81,1,1,0
+D0536,A188,A237,Sub-Tier Dependency,0.92,1,1,1
+D0537,A189,A236,Sub-Tier Dependency,0.81,1,1,0
+D0538,A189,A233,Sub-Tier Dependency,0.78,0,1,0
+D0539,A190,A249,Sub-Tier Dependency,0.8,1,1,0
+D0540,A191,A236,Sub-Tier Dependency,0.69,1,1,0
+D0541,A191,A233,Sub-Tier Dependency,0.68,1,1,0
+D0542,A192,A249,Sub-Tier Dependency,0.85,0,1,1
+D0543,A193,A233,Sub-Tier Dependency,0.66,1,0,0
+D0544,A193,A229,Sub-Tier Dependency,0.73,0,1,0
+D0545,A194,A214,Sub-Tier Dependency,0.69,1,1,0
+D0546,A196,A214,Sub-Tier Dependency,0.64,1,0,0
+D0547,A196,A234,Sub-Tier Dependency,0.87,1,1,1
+D0548,A197,A214,Sub-Tier Dependency,0.83,1,0,1
+D0549,A198,A237,Sub-Tier Dependency,0.87,1,0,1
+D0550,A198,A216,Sub-Tier Dependency,0.78,1,1,0
+D0551,A199,A214,Sub-Tier Dependency,0.77,1,0,0
+D0552,A200,A245,Sub-Tier Dependency,0.8,1,1,0
+D0553,A200,A240,Sub-Tier Dependency,0.88,1,0,1
+D0554,A201,A244,Sub-Tier Dependency,0.74,1,1,0
+D0555,A202,A213,Sub-Tier Dependency,0.66,0,0,0
+D0556,A202,A221,Sub-Tier Dependency,0.81,1,1,0
+D0557,A203,A242,Sub-Tier Dependency,0.64,0,1,0
+D0558,A203,A249,Sub-Tier Dependency,0.91,1,1,1
+D0559,A204,A246,Sub-Tier Dependency,0.59,1,1,0
+D0560,A204,A237,Sub-Tier Dependency,0.67,1,1,0
+D0561,A205,A217,Sub-Tier Dependency,0.7,1,1,0
+D0562,A207,A222,Sub-Tier Dependency,0.82,1,0,0
+D0563,A208,A216,Sub-Tier Dependency,0.67,1,1,0
+D0564,A208,A246,Sub-Tier Dependency,0.8,1,1,0
+D0565,A209,A244,Sub-Tier Dependency,0.76,1,0,0
+D0566,A209,A233,Sub-Tier Dependency,0.76,1,0,0
+D0567,A210,A216,Sub-Tier Dependency,0.88,1,0,1
+D0568,A001,A004,Internal Dependency,0.78,1,1,0
+D0569,A003,A006,Internal Dependency,0.74,1,1,0
+D0570,A008,A011,Internal Dependency,0.81,0,1,0
+D0571,A010,A013,Internal Dependency,0.77,1,1,0
+D0572,A015,A018,Internal Dependency,0.83,1,1,1
+D0573,A017,A020,Internal Dependency,0.82,1,1,1
+D0574,A022,A025,Internal Dependency,0.71,1,1,0
+D0575,A024,A027,Internal Dependency,0.79,0,1,0
+D0576,A029,A032,Internal Dependency,0.72,0,1,0
+D0577,A031,A034,Internal Dependency,0.77,0,1,0
+D0578,A036,A039,Internal Dependency,0.87,1,0,1
+D0579,A038,A041,Internal Dependency,0.89,1,1,1
+D0580,A043,A046,Internal Dependency,0.78,1,1,0
+D0581,A045,A048,Internal Dependency,0.77,1,1,0
+D0582,A050,A053,Internal Dependency,0.85,1,1,1
+D0583,A052,A055,Internal Dependency,0.72,1,0,0
+D0584,A057,A060,Internal Dependency,0.81,1,1,0
+D0585,A059,A062,Internal Dependency,0.71,1,1,0
+D0586,A064,A067,Internal Dependency,0.88,1,0,1
+D0587,A066,A069,Internal Dependency,0.81,1,0,0
+D0588,A071,A074,Internal Dependency,0.81,0,1,0
+D0589,A073,A076,Internal Dependency,0.85,1,1,1
+D0590,A078,A081,Internal Dependency,0.88,1,1,1
+D0591,A080,A083,Internal Dependency,0.89,1,1,1
+D0592,A085,A088,Internal Dependency,0.77,0,1,0
+D0593,A087,A090,Internal Dependency,0.77,0,1,0
+D0594,A092,A095,Internal Dependency,0.85,1,0,1
+D0595,A094,A097,Internal Dependency,0.88,0,1,1
+D0596,A099,A102,Internal Dependency,0.77,1,0,0
+D0597,A101,A104,Internal Dependency,0.88,1,1,1
+D0598,A106,A109,Internal Dependency,0.8,1,1,0
+D0599,A108,A111,Internal Dependency,0.84,1,1,1
+D0600,A113,A116,Internal Dependency,0.79,1,1,0
+D0601,A115,A118,Internal Dependency,0.86,1,1,1
+D0602,A120,A123,Internal Dependency,0.77,1,1,0
+D0603,A122,A125,Internal Dependency,0.8,1,1,0
+D0604,A127,A130,Internal Dependency,0.9,1,1,1
+D0605,A129,A132,Internal Dependency,0.8,1,1,0
+D0606,A134,A137,Internal Dependency,0.8,1,0,0
+D0607,A136,A139,Internal Dependency,0.81,1,1,0
+D0608,A031,A170,External Service Dependency,0.74,1,1,0
+D0609,A103,A184,External Service Dependency,0.86,1,1,1
+D0610,A100,A141,External Service Dependency,0.86,0,1,1
+D0611,A023,A149,External Service Dependency,0.68,1,1,0
+D0612,A192,A250,Supply Chain Dependency,0.79,1,0,0
+D0613,A045,A204,External Service Dependency,0.74,1,1,0
+D0614,A177,A223,Supply Chain Dependency,0.59,1,1,0
+D0615,A044,A145,External Service Dependency,0.72,1,0,0
+D0616,A071,A192,External Service Dependency,0.71,1,1,0
+D0617,A018,A152,External Service Dependency,0.78,1,1,0
+D0618,A089,A176,External Service Dependency,0.67,0,1,0
+D0619,A002,A174,External Service Dependency,0.66,1,1,0
+D0620,A088,A155,External Service Dependency,0.86,0,0,1
+D0621,A173,A239,Supply Chain Dependency,0.89,1,0,1
+D0622,A199,A240,Supply Chain Dependency,0.87,0,1,1
+D0623,A098,A169,External Service Dependency,0.82,1,1,0
+D0624,A207,A245,Supply Chain Dependency,0.58,0,1,0
+D0625,A088,A150,External Service Dependency,0.78,1,1,0
+D0626,A165,A242,Supply Chain Dependency,0.82,1,1,0
+D0627,A059,A166,External Service Dependency,0.87,0,1,1
+D0628,A156,A216,Supply Chain Dependency,0.8,1,1,0
+D0629,A210,A213,Supply Chain Dependency,0.85,1,1,1
+D0630,A176,A242,Supply Chain Dependency,0.64,1,1,0
+D0631,A033,A147,External Service Dependency,0.77,1,0,0
+D0632,A089,A191,External Service Dependency,0.88,1,1,1
+D0633,A133,A199,External Service Dependency,0.7,1,1,0
+D0634,A026,A182,External Service Dependency,0.72,0,1,0
+D0635,A069,A201,External Service Dependency,0.91,1,1,1
+D0636,A108,A188,External Service Dependency,0.72,1,1,0
+D0637,A059,A153,External Service Dependency,0.83,0,1,1
+D0638,A166,A220,Supply Chain Dependency,0.84,1,1,1
+D0639,A108,A204,External Service Dependency,0.64,0,1,0
+D0640,A081,A203,External Service Dependency,0.7,1,1,0
+D0641,A042,A148,External Service Dependency,0.67,1,0,0
+D0642,A086,A174,External Service Dependency,0.72,1,0,0
+D0643,A006,A193,External Service Dependency,0.64,0,0,0
+D0644,A138,A163,External Service Dependency,0.91,1,1,1
+D0645,A115,A151,External Service Dependency,0.72,1,1,0
+D0646,A043,A184,External Service Dependency,0.73,1,1,0
+D0647,A151,A221,Supply Chain Dependency,0.69,1,1,0
+D0648,A191,A228,Supply Chain Dependency,0.86,1,0,1
+D0649,A207,A239,Supply Chain Dependency,0.71,1,1,0
+D0650,A173,A216,Supply Chain Dependency,0.65,1,1,0
+D0651,A201,A246,Supply Chain Dependency,0.6,1,1,0
+D0652,A154,A227,Supply Chain Dependency,0.78,1,0,0
+D0653,A059,A172,External Service Dependency,0.84,1,1,1
+D0654,A044,A144,External Service Dependency,0.61,1,0,0
+D0655,A035,A210,External Service Dependency,0.66,1,1,0
+D0656,A112,A208,External Service Dependency,0.8,1,0,0
+D0657,A059,A152,External Service Dependency,0.74,1,1,0
+D0658,A001,A207,External Service Dependency,0.86,0,1,1
+D0659,A003,A203,External Service Dependency,0.9,1,1,1
+D0660,A075,A170,External Service Dependency,0.85,1,1,1
+D0661,A196,A236,Supply Chain Dependency,0.66,1,1,0
+D0662,A169,A227,Supply Chain Dependency,0.61,1,1,0
+D0663,A175,A229,Supply Chain Dependency,0.79,1,1,0
+D0664,A018,A164,External Service Dependency,0.64,1,1,0
+D0665,A126,A165,External Service Dependency,0.7,1,0,0
+D0666,A027,A177,External Service Dependency,0.69,1,0,0
+D0667,A039,A142,External Service Dependency,0.76,1,1,0
+D0668,A188,A240,Supply Chain Dependency,0.8,1,1,0
+D0669,A159,A214,Supply Chain Dependency,0.67,1,1,0
+D0670,A065,A189,External Service Dependency,0.87,1,0,1
+D0671,A114,A172,External Service Dependency,0.84,1,1,1
+D0672,A207,A224,Supply Chain Dependency,0.73,1,1,0
+D0673,A011,A207,External Service Dependency,0.64,1,1,0
+D0674,A014,A168,External Service Dependency,0.91,1,1,1
+D0675,A071,A156,External Service Dependency,0.73,1,0,0
+D0676,A122,A160,External Service Dependency,0.72,1,1,0
+D0677,A087,A148,External Service Dependency,0.62,1,0,0
+D0678,A157,A242,Supply Chain Dependency,0.65,0,0,0
+D0679,A197,A223,Supply Chain Dependency,0.59,1,0,0
+D0680,A011,A203,External Service Dependency,0.83,1,1,1
+D0681,A048,A210,External Service Dependency,0.71,1,1,0
+D0682,A161,A215,Supply Chain Dependency,0.75,1,0,0
+D0683,A117,A141,External Service Dependency,0.85,1,0,1
+D0684,A187,A250,Supply Chain Dependency,0.66,1,1,0
+D0685,A100,A165,External Service Dependency,0.77,1,1,0
+D0686,A083,A193,External Service Dependency,0.81,1,1,0
+D0687,A034,A163,External Service Dependency,0.88,1,1,1
+D0688,A100,A203,External Service Dependency,0.77,1,1,0
+D0689,A019,A142,External Service Dependency,0.9,1,1,1
+D0690,A151,A240,Supply Chain Dependency,0.84,1,1,1
+D0691,A194,A234,Supply Chain Dependency,0.83,1,1,1
+D0692,A019,A179,External Service Dependency,0.62,1,1,0
+D0693,A060,A209,External Service Dependency,0.72,1,1,0
+D0694,A046,A194,External Service Dependency,0.84,1,1,1
+D0695,A195,A217,Supply Chain Dependency,0.63,1,1,0
+D0696,A041,A209,External Service Dependency,0.92,1,1,1
+D0697,A084,A188,External Service Dependency,0.73,1,0,0
+D0698,A062,A210,External Service Dependency,0.67,1,0,0
+D0699,A116,A198,External Service Dependency,0.91,1,1,1
+D0700,A005,A207,External Service Dependency,0.64,0,1,0
+D0701,A168,A231,Supply Chain Dependency,0.59,0,1,0
+D0702,A131,A160,External Service Dependency,0.63,1,1,0
+D0703,A064,A170,External Service Dependency,0.68,1,1,0
+D0704,A056,A150,External Service Dependency,0.83,1,1,1
+D0705,A153,A249,Supply Chain Dependency,0.79,1,0,0
+D0706,A015,A183,External Service Dependency,0.71,0,1,0
+D0707,A170,A249,Supply Chain Dependency,0.88,1,1,1
+D0708,A135,A146,External Service Dependency,0.7,1,1,0
+D0709,A160,A214,Supply Chain Dependency,0.8,0,0,0
+D0710,A205,A216,Supply Chain Dependency,0.65,1,1,0
+D0711,A022,A201,External Service Dependency,0.78,1,1,0
+D0712,A129,A196,External Service Dependency,0.85,1,1,1
+D0713,A135,A172,External Service Dependency,0.68,1,1,0
+D0714,A152,A218,Supply Chain Dependency,0.79,1,1,0
+D0715,A007,A180,External Service Dependency,0.65,1,0,0
+D0716,A159,A239,Supply Chain Dependency,0.59,0,1,0
+D0717,A022,A155,External Service Dependency,0.84,1,1,1
+D0718,A074,A142,External Service Dependency,0.71,0,1,0
+D0719,A085,A167,External Service Dependency,0.84,1,1,1
+D0720,A202,A250,Supply Chain Dependency,0.81,1,1,0

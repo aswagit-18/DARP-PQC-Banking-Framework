@@ -1,0 +1,18 @@
+{
+  "kind": "Synthetic counterfactual risk-model scenario, not live migration",
+  "service_id": "S01",
+  "assumed_remediated_reachable_assets": 9,
+  "before_er": 0.7787266434887499,
+  "after_er": 0.6077282879000402,
+  "before_service_risk": 0.892631396,
+  "after_service_risk": 0.0,
+  "before_policy": "elevated",
+  "after_policy": "standard",
+  "before_kem": "ML-KEM-1024",
+  "after_kem": "ML-KEM-768",
+  "old_message_blocked_after_policy_revision": true,
+  "fixed_pqc_baseline_old_message_still_accepted_without_policy_binding": true,
+  "new_message_accepted": true,
+  "policy_epoch_incremented": true,
+  "minimum_PQC_profile_retained": true
+}

@@ -1,0 +1,46 @@
+{
+  "dataset": "V3 synthetic banking ecosystem",
+  "service_id": "S01",
+  "baseline_ecosystem_risk": 0.6024188147973415,
+  "security_profile": "elevated",
+  "kem": "ML-KEM-1024",
+  "signature": "ML-DSA-87",
+  "required_tiers": [
+    {
+      "service_id": "S01",
+      "asset_id": "A026",
+      "tier": "Third-Party",
+      "provider": "Cloud Provider A",
+      "path_risk": 0.8742,
+      "path": [
+        "S01",
+        "A001",
+        "A026"
+      ]
+    },
+    {
+      "service_id": "S01",
+      "asset_id": "A041",
+      "tier": "Sub-Tier",
+      "provider": "Cloud Sub-Vendor A",
+      "path_risk": 0.76986,
+      "path": [
+        "S01",
+        "A001",
+        "A026",
+        "A041"
+      ]
+    }
+  ],
+  "negative_checks": {
+    "missing_subtier": "REJECTED",
+    "missing_all": "REJECTED",
+    "duplicate_provider": "REJECTED"
+  },
+  "host": {
+    "python": "3.13.5",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "openssl": "OpenSSL 3.6.5 29 Sep 2026 (Library: OpenSSL 3.6.5 29 Sep 2026)"
+  },
+  "limitations": "Simulated providers, locally registered keys, no production vendor attestation, no forward secrecy, not a security proof; timings include OpenSSL CLI and temporary files."
+}

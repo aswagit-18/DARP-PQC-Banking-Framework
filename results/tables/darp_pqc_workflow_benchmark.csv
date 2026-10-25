@@ -1,0 +1,4 @@
+scenario,service_id,profile,operations,roundtrip_successes,median_ms,p95_ms,mean_ms,envelope_json_bytes
+Fixed-PQC baseline,S02,standard,15,15,25.917,30.002,26.831,14263
+DARP-PQC standard,S02,standard,15,15,27.719,32.188,27.806,15406
+DARP-PQC elevated,S01,elevated,15,15,28.653,30.238,28.323,20744

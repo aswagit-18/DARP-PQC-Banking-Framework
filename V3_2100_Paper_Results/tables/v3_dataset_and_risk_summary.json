@@ -1,0 +1,15 @@
+{
+  "dataset": "V3",
+  "assets": 2100,
+  "services": 60,
+  "dependency_rows": 2862,
+  "unique_graph_edges": 2856,
+  "graph_nodes": 2160,
+  "vulnerable_assets": 1266,
+  "baseline_ecosystem_risk": 0.6024188147973415,
+  "asset_tiers": {
+    "Internal": 1200,
+    "Third-Party": 560,
+    "Sub-Tier": 340
+  }
+}

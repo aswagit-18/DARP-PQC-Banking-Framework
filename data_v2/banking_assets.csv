@@ -1,0 +1,251 @@
+asset_id,asset_name,asset_type,tier,service_id,provider_type,algorithm,key_size,crypto_function,data_sensitivity,data_lifetime,business_criticality,external_exposure,hndl_exposure,migration_complexity,quantum_vulnerability,provider
+A001,Core Banking Integration Gateway 1,Integration Gateway,Internal,S01,Internal,ECDH-256,256,TLS,0.93,0.84,0.89,0.54,0.87,0.69,0.98,Bank Internal
+A002,Core Banking Application Server 2,Application Server,Internal,S01,Internal,ECDSA-256,256,Digital Signature,0.87,0.93,1.0,0.25,0.89,0.77,0.98,Bank Internal
+A003,Core Banking API Gateway 3,API Gateway,Internal,S01,Internal,ECDH-256,256,Authentication,0.88,0.87,1.0,0.49,0.86,0.6,0.98,Bank Internal
+A004,Core Banking HSM 4,HSM,Internal,S01,Internal,RSA-3072,3072,Key Management,0.89,0.87,0.89,0.43,0.86,0.58,0.97,Bank Internal
+A005,Core Banking Authentication Server 5,Authentication Server,Internal,S01,Internal,ML-KEM,768,Authentication,0.84,0.88,0.98,0.6,0.33,0.49,0.05,Bank Internal
+A006,Core Banking Secure File Transfer 6,Secure File Transfer,Internal,S01,Internal,RSA-2048,2048,TLS,0.84,0.87,0.93,0.28,0.85,0.54,0.98,Bank Internal
+A007,Core Banking Message Broker 7,Message Broker,Internal,S01,Internal,RSA-2048,2048,Authentication,0.91,0.97,0.91,0.39,0.93,0.72,0.98,Bank Internal
+A008,Mobile Banking Secure File Transfer 1,Secure File Transfer,Internal,S02,Internal,ECDSA-256,256,Encryption,0.9,0.77,0.95,0.34,0.82,0.46,0.98,Bank Internal
+A009,Mobile Banking Integration Gateway 2,Integration Gateway,Internal,S02,Internal,RSA-3072,3072,Authentication,0.79,0.79,0.92,0.74,0.77,0.54,0.97,Bank Internal
+A010,Mobile Banking Application Server 3,Application Server,Internal,S02,Internal,ECDSA-256,256,Digital Signature,0.8,0.65,0.95,0.47,0.71,0.75,0.98,Bank Internal
+A011,Mobile Banking Database 4,Database,Internal,S02,Internal,AES-256,256,Data Encryption,0.88,0.69,0.99,0.31,0.36,0.65,0.18,Bank Internal
+A012,Mobile Banking Authentication Server 5,Authentication Server,Internal,S02,Internal,ECDH-256,256,Authentication,0.93,0.66,0.86,0.52,0.77,0.69,0.98,Bank Internal
+A013,Mobile Banking Identity Service 6,Identity Service,Internal,S02,Internal,ECDSA-256,256,Authentication,0.88,0.71,0.87,0.47,0.78,0.83,0.98,Bank Internal
+A014,Mobile Banking Key Management Server 7,Key Management Server,Internal,S02,Internal,ECC-256,256,Key Management,0.8,0.78,0.95,0.56,0.78,0.59,0.98,Bank Internal
+A015,Internet Banking HSM 1,HSM,Internal,S03,Internal,RSA-3072,3072,Key Management,0.87,0.66,0.98,0.6,0.74,0.65,0.97,Bank Internal
+A016,Internet Banking Message Broker 2,Message Broker,Internal,S03,Internal,ECDH-256,256,Encryption,0.81,0.76,0.92,0.56,0.77,0.66,0.98,Bank Internal
+A017,Internet Banking Database 3,Database,Internal,S03,Internal,AES-256,256,Data Encryption,0.84,0.63,0.98,0.6,0.34,0.78,0.18,Bank Internal
+A018,Internet Banking Key Management Server 4,Key Management Server,Internal,S03,Internal,RSA-3072,3072,Key Management,0.79,0.78,0.98,0.28,0.77,0.64,0.97,Bank Internal
+A019,Internet Banking API Gateway 5,API Gateway,Internal,S03,Internal,RSA-2048,2048,Encryption,0.8,0.71,0.92,0.56,0.74,0.8,0.98,Bank Internal
+A020,Internet Banking PKI 6,PKI,Internal,S03,Internal,RSA-3072,3072,Digital Signature,0.82,0.72,0.95,0.33,0.75,0.65,0.97,Bank Internal
+A021,Internet Banking Integration Gateway 7,Integration Gateway,Internal,S03,Internal,ML-KEM,768,Authentication,0.85,0.72,0.85,0.54,0.3,0.49,0.05,Bank Internal
+A022,ATM Network Identity Service 1,Identity Service,Internal,S04,Internal,ECDH-256,256,Authentication,0.72,0.68,0.92,0.28,0.69,0.55,0.98,Bank Internal
+A023,ATM Network Transaction Processor 2,Transaction Processor,Internal,S04,Internal,ECDH-256,256,Encryption,0.77,0.65,0.92,0.48,0.69,0.63,0.98,Bank Internal
+A024,ATM Network Authentication Server 3,Authentication Server,Internal,S04,Internal,ECDSA-256,256,Authentication,0.75,0.55,0.89,0.39,0.63,0.61,0.98,Bank Internal
+A025,ATM Network Secure File Transfer 4,Secure File Transfer,Internal,S04,Internal,ECC-256,256,TLS,0.79,0.7,0.8,0.41,0.73,0.59,0.98,Bank Internal
+A026,ATM Network API Gateway 5,API Gateway,Internal,S04,Internal,ECC-256,256,Encryption,0.71,0.62,0.8,0.52,0.65,0.64,0.98,Bank Internal
+A027,ATM Network Key Management Server 6,Key Management Server,Internal,S04,Internal,ECDH-256,256,Key Management,0.69,0.67,0.92,0.29,0.67,0.71,0.98,Bank Internal
+A028,ATM Network PKI 7,PKI,Internal,S04,Internal,RSA-3072,3072,Digital Signature,0.68,0.55,0.9,0.34,0.6,0.69,0.97,Bank Internal
+A029,Card Payments Key Management Server 1,Key Management Server,Internal,S05,Internal,ML-KEM,768,Key Management,0.83,0.76,0.93,0.42,0.3,0.73,0.05,Bank Internal
+A030,Card Payments Authentication Server 2,Authentication Server,Internal,S05,Internal,ML-KEM,768,Authentication,0.87,0.75,0.88,0.37,0.31,0.74,0.05,Bank Internal
+A031,Card Payments Message Broker 3,Message Broker,Internal,S05,Internal,ECDSA-256,256,TLS,0.91,0.64,0.95,0.45,0.75,0.79,0.98,Bank Internal
+A032,Card Payments API Gateway 4,API Gateway,Internal,S05,Internal,RSA-2048,2048,TLS,0.92,0.64,0.87,0.79,0.76,0.61,0.98,Bank Internal
+A033,Card Payments Database 5,Database,Internal,S05,Internal,AES-128,128,Data Encryption,0.88,0.73,0.87,0.28,0.51,0.71,0.45,Bank Internal
+A034,Card Payments Integration Gateway 6,Integration Gateway,Internal,S05,Internal,ECDSA-256,256,Authentication,0.94,0.66,0.97,0.55,0.78,0.61,0.98,Bank Internal
+A035,Card Payments Transaction Processor 7,Transaction Processor,Internal,S05,Internal,ECDH-256,256,Authentication,0.86,0.79,1.0,0.25,0.81,0.78,0.98,Bank Internal
+A036,Instant Payments Identity Service 1,Identity Service,Internal,S06,Internal,RSA-2048,2048,Authentication,0.84,0.64,0.9,0.36,0.72,0.63,0.98,Bank Internal
+A037,Instant Payments Application Server 2,Application Server,Internal,S06,Internal,ECDSA-256,256,Authentication,0.88,0.8,0.96,0.25,0.83,0.78,0.98,Bank Internal
+A038,Instant Payments Integration Gateway 3,Integration Gateway,Internal,S06,Internal,RSA-3072,3072,TLS,0.94,0.65,0.88,0.49,0.77,0.67,0.97,Bank Internal
+A039,Instant Payments Transaction Processor 4,Transaction Processor,Internal,S06,Internal,RSA-3072,3072,Encryption,0.9,0.66,0.96,0.36,0.75,0.73,0.97,Bank Internal
+A040,Instant Payments Authentication Server 5,Authentication Server,Internal,S06,Internal,ECC-256,256,Authentication,0.92,0.65,0.93,0.36,0.76,0.45,0.98,Bank Internal
+A041,Instant Payments HSM 6,HSM,Internal,S06,Internal,ECDH-256,256,Key Management,0.89,0.67,0.98,0.47,0.76,0.7,0.98,Bank Internal
+A042,Instant Payments Database 7,Database,Internal,S06,Internal,AES-256,256,Data Encryption,0.79,0.78,1.0,0.47,0.37,0.78,0.18,Bank Internal
+A043,Customer Authentication Identity Service 1,Identity Service,Internal,S07,Internal,ECDSA-256,256,Authentication,0.99,0.85,0.84,0.39,0.9,0.72,0.98,Bank Internal
+A044,Customer Authentication Transaction Processor 2,Transaction Processor,Internal,S07,Internal,ECDH-256,256,Authentication,0.96,0.83,0.9,0.5,0.88,0.59,0.98,Bank Internal
+A045,Customer Authentication Database 3,Database,Internal,S07,Internal,AES-128,128,Data Encryption,0.98,0.85,0.96,0.6,0.58,0.46,0.45,Bank Internal
+A046,Customer Authentication Message Broker 4,Message Broker,Internal,S07,Internal,ECDH-256,256,Authentication,0.96,0.75,0.94,0.54,0.83,0.55,0.98,Bank Internal
+A047,Customer Authentication Secure File Transfer 5,Secure File Transfer,Internal,S07,Internal,RSA-2048,2048,TLS,0.9,0.69,0.91,0.33,0.77,0.82,0.98,Bank Internal
+A048,Customer Authentication API Gateway 6,API Gateway,Internal,S07,Internal,RSA-3072,3072,Encryption,0.87,0.79,0.89,0.56,0.81,0.48,0.97,Bank Internal
+A049,Customer Authentication Key Management Server 7,Key Management Server,Internal,S07,Internal,ECDH-256,256,Key Management,0.89,0.77,0.94,0.59,0.81,0.58,0.98,Bank Internal
+A050,Loan Processing API Gateway 1,API Gateway,Internal,S08,Internal,ECDSA-256,256,Authentication,0.9,0.83,0.83,0.65,0.85,0.6,0.98,Bank Internal
+A051,Loan Processing Application Server 2,Application Server,Internal,S08,Internal,ECDSA-256,256,Authentication,0.79,0.85,0.81,0.57,0.81,0.72,0.98,Bank Internal
+A052,Loan Processing HSM 3,HSM,Internal,S08,Internal,ML-KEM,768,Key Management,0.91,0.81,0.8,0.63,0.33,0.8,0.05,Bank Internal
+A053,Loan Processing Database 4,Database,Internal,S08,Internal,AES-256,256,Data Encryption,0.89,0.8,0.87,0.45,0.39,0.72,0.18,Bank Internal
+A054,Loan Processing Identity Service 5,Identity Service,Internal,S08,Internal,RSA-3072,3072,Authentication,0.9,0.87,0.76,0.52,0.87,0.6,0.97,Bank Internal
+A055,Loan Processing Secure File Transfer 6,Secure File Transfer,Internal,S08,Internal,ECDH-256,256,Encryption,0.88,0.83,0.82,0.25,0.84,0.56,0.98,Bank Internal
+A056,Loan Processing Message Broker 7,Message Broker,Internal,S08,Internal,ECDSA-256,256,Authentication,0.86,0.86,0.76,0.44,0.85,0.81,0.98,Bank Internal
+A057,KYC Service Secure File Transfer 1,Secure File Transfer,Internal,S09,Internal,ECDH-256,256,Encryption,1.0,0.91,0.79,0.64,0.94,0.69,0.98,Bank Internal
+A058,KYC Service Database 2,Database,Internal,S09,Internal,AES-128,128,Data Encryption,0.96,1.0,0.87,0.54,0.63,0.6,0.45,Bank Internal
+A059,KYC Service Application Server 3,Application Server,Internal,S09,Internal,ECDSA-256,256,Encryption,0.99,0.88,0.9,0.56,0.92,0.49,0.98,Bank Internal
+A060,KYC Service HSM 4,HSM,Internal,S09,Internal,RSA-3072,3072,Key Management,0.91,1.0,0.86,0.27,0.94,0.63,0.97,Bank Internal
+A061,KYC Service PKI 5,PKI,Internal,S09,Internal,ECDSA-256,256,Digital Signature,0.96,1.0,0.89,0.65,0.97,0.77,0.98,Bank Internal
+A062,KYC Service API Gateway 6,API Gateway,Internal,S09,Internal,ML-KEM,768,Digital Signature,0.98,1.0,0.86,0.78,0.38,0.57,0.05,Bank Internal
+A063,KYC Service Identity Service 7,Identity Service,Internal,S09,Internal,ECC-256,256,Authentication,1.0,0.96,0.82,0.35,0.97,0.71,0.98,Bank Internal
+A064,Fraud Detection Transaction Processor 1,Transaction Processor,Internal,S10,Internal,RSA-3072,3072,Authentication,0.84,0.78,0.81,0.31,0.79,0.68,0.97,Bank Internal
+A065,Fraud Detection Key Management Server 2,Key Management Server,Internal,S10,Internal,RSA-2048,2048,Key Management,0.82,0.7,0.85,0.44,0.74,0.47,0.98,Bank Internal
+A066,Fraud Detection Authentication Server 3,Authentication Server,Internal,S10,Internal,ECC-256,256,Authentication,0.85,0.76,0.95,0.26,0.79,0.8,0.98,Bank Internal
+A067,Fraud Detection HSM 4,HSM,Internal,S10,Internal,ECC-256,256,Key Management,0.86,0.79,0.85,0.41,0.81,0.89,0.98,Bank Internal
+A068,Fraud Detection Integration Gateway 5,Integration Gateway,Internal,S10,Internal,ECC-256,256,Encryption,0.86,0.68,0.88,0.61,0.75,0.72,0.98,Bank Internal
+A069,Fraud Detection API Gateway 6,API Gateway,Internal,S10,Internal,ECDH-256,256,Encryption,0.92,0.79,0.96,0.66,0.84,0.81,0.98,Bank Internal
+A070,Fraud Detection PKI 7,PKI,Internal,S10,Internal,ECDSA-256,256,Digital Signature,0.89,0.64,0.87,0.6,0.74,0.6,0.98,Bank Internal
+A071,Treasury Management HSM 1,HSM,Internal,S11,Internal,ECDH-256,256,Key Management,0.84,0.86,0.96,0.35,0.84,0.56,0.98,Bank Internal
+A072,Treasury Management Message Broker 2,Message Broker,Internal,S11,Internal,RSA-2048,2048,TLS,0.95,0.79,0.93,0.56,0.85,0.71,0.98,Bank Internal
+A073,Treasury Management PKI 3,PKI,Internal,S11,Internal,ECDSA-256,256,Digital Signature,0.94,0.76,0.83,0.31,0.83,0.58,0.98,Bank Internal
+A074,Treasury Management Authentication Server 4,Authentication Server,Internal,S11,Internal,ECDH-256,256,Authentication,0.88,0.77,0.94,0.56,0.81,0.52,0.98,Bank Internal
+A075,Treasury Management Key Management Server 5,Key Management Server,Internal,S11,Internal,ECC-256,256,Key Management,0.91,0.75,0.96,0.64,0.81,0.49,0.98,Bank Internal
+A076,Treasury Management Database 6,Database,Internal,S11,Internal,AES-256,256,Data Encryption,0.83,0.85,0.98,0.41,0.39,0.74,0.18,Bank Internal
+A077,Treasury Management Integration Gateway 7,Integration Gateway,Internal,S11,Internal,RSA-2048,2048,Encryption,0.8,0.86,0.97,0.69,0.82,0.5,0.98,Bank Internal
+A078,SWIFT and Interbank Identity Service 1,Identity Service,Internal,S12,Internal,RSA-2048,2048,Authentication,0.94,0.78,0.95,0.45,0.84,0.62,0.98,Bank Internal
+A079,SWIFT and Interbank API Gateway 2,API Gateway,Internal,S12,Internal,ECDSA-256,256,Digital Signature,0.95,0.85,1.0,0.84,0.88,0.56,0.98,Bank Internal
+A080,SWIFT and Interbank PKI 3,PKI,Internal,S12,Internal,ECDSA-256,256,Digital Signature,0.92,0.86,0.95,0.54,0.88,0.64,0.98,Bank Internal
+A081,SWIFT and Interbank Transaction Processor 4,Transaction Processor,Internal,S12,Internal,ECC-256,256,TLS,0.88,0.86,1.0,0.48,0.86,0.8,0.98,Bank Internal
+A082,SWIFT and Interbank Message Broker 5,Message Broker,Internal,S12,Internal,RSA-3072,3072,Digital Signature,0.97,0.81,0.91,0.57,0.86,0.59,0.97,Bank Internal
+A083,SWIFT and Interbank Secure File Transfer 6,Secure File Transfer,Internal,S12,Internal,ECC-256,256,Authentication,0.92,0.87,0.91,0.35,0.88,0.61,0.98,Bank Internal
+A084,SWIFT and Interbank Database 7,Database,Internal,S12,Internal,AES-256,256,Data Encryption,0.87,0.86,0.99,0.43,0.4,0.46,0.18,Bank Internal
+A085,Customer Data Platform HSM 1,HSM,Internal,S13,Internal,RSA-3072,3072,Key Management,0.97,0.89,0.89,0.47,0.91,0.67,0.97,Bank Internal
+A086,Customer Data Platform Authentication Server 2,Authentication Server,Internal,S13,Internal,ECDSA-256,256,Authentication,0.93,0.87,0.85,0.38,0.89,0.75,0.98,Bank Internal
+A087,Customer Data Platform Message Broker 3,Message Broker,Internal,S13,Internal,ML-KEM,768,Encryption,0.91,0.96,0.77,0.49,0.36,0.65,0.05,Bank Internal
+A088,Customer Data Platform Integration Gateway 4,Integration Gateway,Internal,S13,Internal,ECDSA-256,256,TLS,1.0,0.88,0.79,0.57,0.92,0.73,0.98,Bank Internal
+A089,Customer Data Platform Secure File Transfer 5,Secure File Transfer,Internal,S13,Internal,RSA-2048,2048,TLS,1.0,0.92,0.84,0.3,0.94,0.8,0.98,Bank Internal
+A090,Customer Data Platform PKI 6,PKI,Internal,S13,Internal,RSA-3072,3072,Digital Signature,1.0,0.93,0.81,0.43,0.94,0.6,0.97,Bank Internal
+A091,Customer Data Platform Key Management Server 7,Key Management Server,Internal,S13,Internal,RSA-2048,2048,Key Management,1.0,0.91,0.86,0.41,0.94,0.48,0.98,Bank Internal
+A092,Customer Relationship Management Integration Gateway 1,Integration Gateway,Internal,S14,Internal,ML-KEM,768,TLS,0.9,0.7,0.75,0.69,0.3,0.67,0.05,Bank Internal
+A093,Customer Relationship Management Secure File Transfer 2,Secure File Transfer,Internal,S14,Internal,RSA-3072,3072,Digital Signature,0.81,0.76,0.77,0.65,0.77,0.57,0.97,Bank Internal
+A094,Customer Relationship Management API Gateway 3,API Gateway,Internal,S14,Internal,ECDH-256,256,TLS,0.89,0.72,0.66,0.71,0.79,0.51,0.98,Bank Internal
+A095,Customer Relationship Management Database 4,Database,Internal,S14,Internal,AES-256,256,Data Encryption,0.74,0.68,0.7,0.49,0.33,0.57,0.18,Bank Internal
+A096,Customer Relationship Management Transaction Processor 5,Transaction Processor,Internal,S14,Internal,RSA-3072,3072,Authentication,0.85,0.76,0.74,0.62,0.78,0.85,0.97,Bank Internal
+A097,Customer Relationship Management Message Broker 6,Message Broker,Internal,S14,Internal,ECDH-256,256,Encryption,0.8,0.77,0.73,0.61,0.77,0.78,0.98,Bank Internal
+A098,Customer Relationship Management HSM 7,HSM,Internal,S14,Internal,RSA-2048,2048,Key Management,0.76,0.73,0.75,0.48,0.73,0.65,0.98,Bank Internal
+A099,Open Banking APIs Application Server 1,Application Server,Internal,S15,Internal,ECDSA-256,256,TLS,0.83,0.73,0.9,0.49,0.76,0.46,0.98,Bank Internal
+A100,Open Banking APIs Key Management Server 2,Key Management Server,Internal,S15,Internal,RSA-2048,2048,Key Management,0.84,0.73,0.87,0.26,0.77,0.76,0.98,Bank Internal
+A101,Open Banking APIs HSM 3,HSM,Internal,S15,Internal,ECDH-256,256,Key Management,0.83,0.71,0.81,0.46,0.75,0.71,0.98,Bank Internal
+A102,Open Banking APIs Message Broker 4,Message Broker,Internal,S15,Internal,RSA-3072,3072,Digital Signature,0.84,0.66,0.79,0.39,0.73,0.58,0.97,Bank Internal
+A103,Open Banking APIs Identity Service 5,Identity Service,Internal,S15,Internal,ECDH-256,256,Authentication,0.88,0.64,0.89,0.37,0.74,0.83,0.98,Bank Internal
+A104,Open Banking APIs Integration Gateway 6,Integration Gateway,Internal,S15,Internal,ECC-256,256,TLS,0.81,0.63,0.83,0.84,0.7,0.61,0.98,Bank Internal
+A105,Open Banking APIs Transaction Processor 7,Transaction Processor,Internal,S15,Internal,ECDSA-256,256,TLS,0.84,0.67,0.85,0.33,0.74,0.67,0.98,Bank Internal
+A106,Merchant Acquiring Key Management Server 1,Key Management Server,Internal,S16,Internal,RSA-2048,2048,Key Management,0.78,0.73,0.86,0.26,0.74,0.7,0.98,Bank Internal
+A107,Merchant Acquiring Integration Gateway 2,Integration Gateway,Internal,S16,Internal,ECDH-256,256,Encryption,0.78,0.58,0.85,0.54,0.66,0.79,0.98,Bank Internal
+A108,Merchant Acquiring Secure File Transfer 3,Secure File Transfer,Internal,S16,Internal,RSA-2048,2048,TLS,0.84,0.61,0.93,0.37,0.7,0.73,0.98,Bank Internal
+A109,Merchant Acquiring API Gateway 4,API Gateway,Internal,S16,Internal,ECDSA-256,256,Digital Signature,0.9,0.62,0.87,0.6,0.74,0.82,0.98,Bank Internal
+A110,Merchant Acquiring Authentication Server 5,Authentication Server,Internal,S16,Internal,ECDSA-256,256,Authentication,0.88,0.73,0.82,0.57,0.79,0.62,0.98,Bank Internal
+A111,Merchant Acquiring Database 6,Database,Internal,S16,Internal,AES-128,128,Data Encryption,0.82,0.72,0.83,0.37,0.49,0.68,0.45,Bank Internal
+A112,Merchant Acquiring HSM 7,HSM,Internal,S16,Internal,ML-KEM,768,Key Management,0.81,0.61,0.87,0.39,0.27,0.65,0.05,Bank Internal
+A113,Bill Payments Transaction Processor 1,Transaction Processor,Internal,S17,Internal,ECDSA-256,256,Encryption,0.83,0.65,0.81,0.44,0.72,0.9,0.98,Bank Internal
+A114,Bill Payments Message Broker 2,Message Broker,Internal,S17,Internal,ECDSA-256,256,Encryption,0.76,0.59,0.84,0.49,0.66,0.8,0.98,Bank Internal
+A115,Bill Payments Key Management Server 3,Key Management Server,Internal,S17,Internal,ECDH-256,256,Key Management,0.75,0.67,0.83,0.54,0.7,0.61,0.98,Bank Internal
+A116,Bill Payments PKI 4,PKI,Internal,S17,Internal,ECDSA-256,256,Digital Signature,0.71,0.66,0.92,0.39,0.67,0.81,0.98,Bank Internal
+A117,Bill Payments Authentication Server 5,Authentication Server,Internal,S17,Internal,ECDH-256,256,Authentication,0.82,0.72,0.9,0.4,0.76,0.58,0.98,Bank Internal
+A118,Bill Payments Secure File Transfer 6,Secure File Transfer,Internal,S17,Internal,ECDH-256,256,Digital Signature,0.83,0.59,0.77,0.5,0.69,0.82,0.98,Bank Internal
+A119,Bill Payments Application Server 7,Application Server,Internal,S17,Internal,ML-KEM,768,TLS,0.75,0.6,0.86,0.6,0.26,0.53,0.05,Bank Internal
+A120,Data Warehouse and Analytics Secure File Transfer 1,Secure File Transfer,Internal,S18,Internal,RSA-3072,3072,Authentication,0.9,0.87,0.77,0.52,0.87,0.52,0.97,Bank Internal
+A121,Data Warehouse and Analytics HSM 2,HSM,Internal,S18,Internal,RSA-2048,2048,Key Management,0.93,0.9,0.81,0.45,0.9,0.76,0.98,Bank Internal
+A122,Data Warehouse and Analytics API Gateway 3,API Gateway,Internal,S18,Internal,RSA-3072,3072,Authentication,0.91,0.94,0.84,0.64,0.91,0.57,0.97,Bank Internal
+A123,Data Warehouse and Analytics Identity Service 4,Identity Service,Internal,S18,Internal,ECDSA-256,256,Authentication,0.84,0.99,0.86,0.37,0.91,0.83,0.98,Bank Internal
+A124,Data Warehouse and Analytics PKI 5,PKI,Internal,S18,Internal,ECDSA-256,256,Digital Signature,0.91,0.88,0.86,0.59,0.88,0.57,0.98,Bank Internal
+A125,Data Warehouse and Analytics Message Broker 6,Message Broker,Internal,S18,Internal,ECDSA-256,256,Authentication,0.93,1.0,0.75,0.64,0.96,0.71,0.98,Bank Internal
+A126,Data Warehouse and Analytics Transaction Processor 7,Transaction Processor,Internal,S18,Internal,RSA-3072,3072,TLS,0.98,0.96,0.83,0.61,0.95,0.84,0.97,Bank Internal
+A127,Regulatory Reporting Authentication Server 1,Authentication Server,Internal,S19,Internal,ECDH-256,256,Authentication,0.9,0.94,0.86,0.5,0.91,0.81,0.98,Bank Internal
+A128,Regulatory Reporting Identity Service 2,Identity Service,Internal,S19,Internal,ECDH-256,256,Authentication,0.83,0.9,0.82,0.54,0.86,0.49,0.98,Bank Internal
+A129,Regulatory Reporting PKI 3,PKI,Internal,S19,Internal,RSA-2048,2048,Digital Signature,0.91,0.86,0.75,0.47,0.87,0.92,0.98,Bank Internal
+A130,Regulatory Reporting Secure File Transfer 4,Secure File Transfer,Internal,S19,Internal,ECDSA-256,256,Authentication,0.92,0.87,0.86,0.44,0.88,0.77,0.98,Bank Internal
+A131,Regulatory Reporting Transaction Processor 5,Transaction Processor,Internal,S19,Internal,ECDH-256,256,Authentication,0.92,0.91,0.74,0.55,0.9,0.62,0.98,Bank Internal
+A132,Regulatory Reporting HSM 6,HSM,Internal,S19,Internal,ECC-256,256,Key Management,0.89,0.9,0.87,0.47,0.88,0.57,0.98,Bank Internal
+A133,Regulatory Reporting Database 7,Database,Internal,S19,Internal,AES-256,256,Data Encryption,0.82,0.85,0.79,0.55,0.39,0.55,0.18,Bank Internal
+A134,Document Management Message Broker 1,Message Broker,Internal,S20,Internal,ECDH-256,256,Authentication,0.94,0.87,0.64,0.58,0.89,0.81,0.98,Bank Internal
+A135,Document Management Integration Gateway 2,Integration Gateway,Internal,S20,Internal,RSA-3072,3072,Digital Signature,0.8,0.84,0.64,0.85,0.81,0.5,0.97,Bank Internal
+A136,Document Management PKI 3,PKI,Internal,S20,Internal,RSA-2048,2048,Digital Signature,0.87,0.9,0.69,0.63,0.87,0.81,0.98,Bank Internal
+A137,Document Management Application Server 4,Application Server,Internal,S20,Internal,ECDSA-256,256,Encryption,0.93,0.94,0.76,0.5,0.92,0.83,0.98,Bank Internal
+A138,Document Management Authentication Server 5,Authentication Server,Internal,S20,Internal,RSA-3072,3072,Authentication,0.9,0.87,0.7,0.34,0.87,0.6,0.97,Bank Internal
+A139,Document Management Key Management Server 6,Key Management Server,Internal,S20,Internal,ML-KEM,768,Key Management,0.84,0.98,0.73,0.27,0.35,0.46,0.05,Bank Internal
+A140,Document Management API Gateway 7,API Gateway,Internal,S20,Internal,ML-KEM,768,Digital Signature,0.8,0.87,0.73,0.84,0.32,0.37,0.05,Bank Internal
+A141,TrustID Services Identity Provider 01,Identity Provider,Third-Party,S11,External Vendor,ECDH-256,256,Authentication,0.81,0.87,0.92,0.83,0.83,0.78,0.98,TrustID Services
+A142,TrustID Services Managed PKI 02,Managed PKI,Third-Party,S08,External Vendor,ECDSA-256,256,Digital Signature,0.88,0.83,0.89,0.95,0.84,0.77,0.98,TrustID Services
+A143,TransactionNet Cloud HSM 03,Cloud HSM,Third-Party,S06,External Vendor,ECDH-256,256,Key Management,0.8,0.69,0.99,0.83,0.73,0.59,0.98,TransactionNet
+A144,TrustID Services Cloud KMS 04,Cloud KMS,Third-Party,S09,External Vendor,ECDH-256,256,Key Management,0.97,1.0,0.86,0.88,0.97,0.68,0.98,TrustID Services
+A145,SecureData Cloud Fraud Data Provider 05,Fraud Data Provider,Third-Party,S04,External Vendor,RSA-3072,3072,TLS,0.8,0.68,0.89,0.74,0.72,0.73,0.97,SecureData Cloud
+A146,CyberTrust Platform Cloud KMS 06,Cloud KMS,Third-Party,S01,External Vendor,ECDH-256,256,Key Management,0.9,0.85,0.99,0.78,0.86,0.81,0.98,CyberTrust Platform
+A147,TrustID Services Cloud Database 07,Cloud Database,Third-Party,S11,External Vendor,AES-256,256,Data Encryption,0.83,0.84,0.92,0.75,0.39,0.85,0.18,TrustID Services
+A148,CyberTrust Platform Certificate Authority 08,Certificate Authority,Third-Party,S17,External Vendor,RSA-3072,3072,Digital Signature,0.75,0.71,0.78,0.85,0.71,0.81,0.97,CyberTrust Platform
+A149,SecureCertificate Ltd Messaging Platform 09,Messaging Platform,Third-Party,S18,External Vendor,ECDSA-256,256,Encryption,0.9,0.97,0.76,0.87,0.93,0.61,0.98,SecureCertificate Ltd
+A150,FinCloud Technologies Tokenization Service 10,Tokenization Service,Third-Party,S11,External Vendor,ECDSA-256,256,Tokenization,0.81,0.89,0.84,0.9,0.84,0.53,0.98,FinCloud Technologies
+A151,DigitalTrust Services Messaging Platform 11,Messaging Platform,Third-Party,S04,External Vendor,ECDSA-256,256,Encryption,0.77,0.63,0.87,0.75,0.68,0.54,0.98,DigitalTrust Services
+A152,PaymentHub Global Tokenization Service 12,Tokenization Service,Third-Party,S12,External Vendor,ECC-256,256,Tokenization,0.95,0.94,0.98,0.76,0.93,0.7,0.98,PaymentHub Global
+A153,TransactionNet Payment Processor 13,Payment Processor,Third-Party,S07,External Vendor,ECDSA-256,256,TLS,0.89,0.77,0.85,0.73,0.81,0.58,0.98,TransactionNet
+A154,IdentityCloud Security Gateway 14,Security Gateway,Third-Party,S14,External Vendor,ECDH-256,256,TLS,0.83,0.79,0.74,0.66,0.8,0.6,0.98,IdentityCloud
+A155,BankAPI Services Managed PKI 15,Managed PKI,Third-Party,S10,External Vendor,RSA-2048,2048,Digital Signature,0.93,0.73,0.86,0.69,0.81,0.8,0.98,BankAPI Services
+A156,DigitalTrust Services Cloud HSM 16,Cloud HSM,Third-Party,S01,External Vendor,ECC-256,256,Key Management,0.89,0.91,0.91,0.74,0.89,0.69,0.98,DigitalTrust Services
+A157,GlobalPay Network Cloud Database 17,Cloud Database,Third-Party,S19,External Vendor,AES-128,128,Data Encryption,0.81,0.96,0.74,0.67,0.57,0.66,0.45,GlobalPay Network
+A158,IdentityCloud Fraud Data Provider 18,Fraud Data Provider,Third-Party,S14,External Vendor,ECDSA-256,256,Authentication,0.77,0.77,0.69,0.68,0.76,0.74,0.98,IdentityCloud
+A159,SecureData Cloud Fraud Data Provider 19,Fraud Data Provider,Third-Party,S19,External Vendor,ECDH-256,256,TLS,0.82,1.0,0.74,0.71,0.91,0.83,0.98,SecureData Cloud
+A160,FinCloud Technologies Certificate Authority 20,Certificate Authority,Third-Party,S05,External Vendor,RSA-3072,3072,Digital Signature,0.78,0.76,0.89,0.76,0.75,0.75,0.97,FinCloud Technologies
+A161,TransactionNet Security Gateway 21,Security Gateway,Third-Party,S17,External Vendor,ECC-256,256,TLS,0.75,0.71,0.83,0.79,0.72,0.53,0.98,TransactionNet
+A162,PaymentHub Global Cloud Database 22,Cloud Database,Third-Party,S11,External Vendor,AES-256,256,Data Encryption,0.9,0.8,0.85,0.66,0.39,0.61,0.18,PaymentHub Global
+A163,DigitalTrust Services Fraud Data Provider 23,Fraud Data Provider,Third-Party,S20,External Vendor,ECC-256,256,TLS,0.85,0.85,0.7,0.77,0.84,0.53,0.98,DigitalTrust Services
+A164,BankAPI Services Messaging Platform 24,Messaging Platform,Third-Party,S10,External Vendor,RSA-3072,3072,Encryption,0.79,0.74,0.88,0.71,0.75,0.77,0.97,BankAPI Services
+A165,TransactionNet Messaging Platform 25,Messaging Platform,Third-Party,S12,External Vendor,ECC-256,256,Encryption,0.85,0.82,0.91,0.7,0.82,0.77,0.98,TransactionNet
+A166,TransactionNet Payment Processor 26,Payment Processor,Third-Party,S03,External Vendor,ECDSA-256,256,Digital Signature,0.9,0.78,0.93,0.95,0.82,0.61,0.98,TransactionNet
+A167,CyberTrust Platform Payment Processor 27,Payment Processor,Third-Party,S11,External Vendor,RSA-2048,2048,Digital Signature,0.89,0.87,0.92,0.76,0.87,0.53,0.98,CyberTrust Platform
+A168,CloudSecure Systems Fraud Data Provider 28,Fraud Data Provider,Third-Party,S15,External Vendor,RSA-2048,2048,Authentication,0.74,0.73,0.92,0.83,0.72,0.68,0.98,CloudSecure Systems
+A169,SecureData Cloud Cloud Database 29,Cloud Database,Third-Party,S15,External Vendor,AES-128,128,Data Encryption,0.86,0.59,0.93,0.82,0.46,0.57,0.45,SecureData Cloud
+A170,SecureData Cloud Fraud Data Provider 30,Fraud Data Provider,Third-Party,S20,External Vendor,RSA-2048,2048,TLS,0.86,0.97,0.76,0.94,0.91,0.53,0.98,SecureData Cloud
+A171,SecureCertificate Ltd Cloud KMS 31,Cloud KMS,Third-Party,S06,External Vendor,ECDH-256,256,Key Management,0.95,0.72,0.96,0.76,0.81,0.82,0.98,SecureCertificate Ltd
+A172,BankAPI Services API Platform 32,API Platform,Third-Party,S13,External Vendor,ECDH-256,256,TLS,1.0,0.94,0.74,0.68,0.95,0.74,0.98,BankAPI Services
+A173,DigitalTrust Services Certificate Authority 33,Certificate Authority,Third-Party,S10,External Vendor,ECDSA-256,256,Digital Signature,0.94,0.73,0.82,0.67,0.81,0.73,0.98,DigitalTrust Services
+A174,TransactionNet Certificate Authority 34,Certificate Authority,Third-Party,S12,External Vendor,ECDSA-256,256,Digital Signature,0.9,0.88,1.0,0.74,0.88,0.63,0.98,TransactionNet
+A175,TransactionNet Payment Processor 35,Payment Processor,Third-Party,S11,External Vendor,ECDH-256,256,TLS,0.89,0.8,0.89,0.76,0.83,0.56,0.98,TransactionNet
+A176,CyberTrust Platform Managed PKI 36,Managed PKI,Third-Party,S07,External Vendor,RSA-2048,2048,Digital Signature,1.0,0.71,0.88,0.89,0.83,0.76,0.98,CyberTrust Platform
+A177,SecureData Cloud Messaging Platform 37,Messaging Platform,Third-Party,S18,External Vendor,RSA-2048,2048,Authentication,0.98,0.94,0.8,0.7,0.95,0.56,0.98,SecureData Cloud
+A178,DigitalTrust Services Payment Processor 38,Payment Processor,Third-Party,S20,External Vendor,ECDSA-256,256,Digital Signature,0.84,0.95,0.79,0.83,0.89,0.76,0.98,DigitalTrust Services
+A179,SecureData Cloud Identity Provider 39,Identity Provider,Third-Party,S15,External Vendor,RSA-3072,3072,Authentication,0.89,0.71,0.92,0.71,0.78,0.74,0.97,SecureData Cloud
+A180,CyberTrust Platform Fraud Data Provider 40,Fraud Data Provider,Third-Party,S19,External Vendor,ECDH-256,256,Digital Signature,0.87,0.9,0.76,0.71,0.87,0.71,0.98,CyberTrust Platform
+A181,TransactionNet Cloud KMS 41,Cloud KMS,Third-Party,S09,External Vendor,ECC-256,256,Key Management,0.94,1.0,0.89,0.8,0.96,0.54,0.98,TransactionNet
+A182,FinCloud Technologies Payment Processor 42,Payment Processor,Third-Party,S03,External Vendor,ECDSA-256,256,Encryption,0.92,0.65,0.98,0.9,0.76,0.81,0.98,FinCloud Technologies
+A183,CloudSecure Systems API Platform 43,API Platform,Third-Party,S01,External Vendor,ECDSA-256,256,Authentication,0.87,1.0,0.94,0.66,0.93,0.83,0.98,CloudSecure Systems
+A184,TrustID Services Payment Processor 44,Payment Processor,Third-Party,S11,External Vendor,RSA-2048,2048,Digital Signature,0.9,0.75,0.94,0.78,0.81,0.5,0.98,TrustID Services
+A185,FinCloud Technologies Cloud KMS 45,Cloud KMS,Third-Party,S03,External Vendor,RSA-2048,2048,Key Management,0.81,0.79,0.93,0.78,0.79,0.77,0.98,FinCloud Technologies
+A186,GlobalPay Network Certificate Authority 46,Certificate Authority,Third-Party,S08,External Vendor,RSA-2048,2048,Digital Signature,0.85,0.91,0.8,0.68,0.87,0.82,0.98,GlobalPay Network
+A187,CloudSecure Systems Security Gateway 47,Security Gateway,Third-Party,S20,External Vendor,ECDH-256,256,Encryption,0.9,0.88,0.63,0.76,0.88,0.7,0.98,CloudSecure Systems
+A188,TransactionNet Tokenization Service 48,Tokenization Service,Third-Party,S06,External Vendor,RSA-2048,2048,Tokenization,0.95,0.64,0.94,0.8,0.77,0.85,0.98,TransactionNet
+A189,PaymentHub Global Cloud KMS 49,Cloud KMS,Third-Party,S18,External Vendor,ECDH-256,256,Key Management,0.84,0.9,0.76,0.87,0.86,0.62,0.98,PaymentHub Global
+A190,SecureCertificate Ltd Managed PKI 50,Managed PKI,Third-Party,S03,External Vendor,ECDSA-256,256,Digital Signature,0.89,0.76,0.95,0.75,0.81,0.6,0.98,SecureCertificate Ltd
+A191,TransactionNet Managed PKI 51,Managed PKI,Third-Party,S18,External Vendor,RSA-2048,2048,Digital Signature,0.96,0.91,0.81,0.84,0.92,0.86,0.98,TransactionNet
+A192,CyberTrust Platform Messaging Platform 52,Messaging Platform,Third-Party,S03,External Vendor,RSA-2048,2048,Encryption,0.79,0.66,0.84,0.93,0.71,0.68,0.98,CyberTrust Platform
+A193,FinCloud Technologies Fraud Data Provider 53,Fraud Data Provider,Third-Party,S18,External Vendor,RSA-2048,2048,Encryption,0.88,0.98,0.71,0.85,0.92,0.6,0.98,FinCloud Technologies
+A194,PaymentHub Global API Platform 54,API Platform,Third-Party,S12,External Vendor,ECDH-256,256,Digital Signature,0.89,0.81,0.99,0.76,0.84,0.78,0.98,PaymentHub Global
+A195,DigitalTrust Services Cloud HSM 55,Cloud HSM,Third-Party,S09,External Vendor,RSA-3072,3072,Key Management,0.95,1.0,0.81,0.74,0.96,0.62,0.97,DigitalTrust Services
+A196,FinCloud Technologies Tokenization Service 56,Tokenization Service,Third-Party,S11,External Vendor,RSA-3072,3072,Tokenization,0.88,0.8,0.94,0.76,0.82,0.51,0.97,FinCloud Technologies
+A197,PaymentHub Global Cloud Database 57,Cloud Database,Third-Party,S12,External Vendor,AES-256,256,Data Encryption,1.0,0.94,0.89,0.84,0.45,0.63,0.18,PaymentHub Global
+A198,TrustID Services Cloud KMS 58,Cloud KMS,Third-Party,S06,External Vendor,ECDH-256,256,Key Management,0.9,0.7,0.88,0.72,0.78,0.73,0.98,TrustID Services
+A199,IdentityCloud API Platform 59,API Platform,Third-Party,S12,External Vendor,RSA-2048,2048,Encryption,0.95,0.94,0.94,0.88,0.93,0.7,0.98,IdentityCloud
+A200,PaymentHub Global Managed PKI 60,Managed PKI,Third-Party,S17,External Vendor,RSA-3072,3072,Digital Signature,0.73,0.74,0.76,0.71,0.72,0.76,0.97,PaymentHub Global
+A201,FinCloud Technologies Cloud HSM 61,Cloud HSM,Third-Party,S18,External Vendor,ECDH-256,256,Key Management,0.95,0.87,0.8,0.86,0.89,0.93,0.98,FinCloud Technologies
+A202,TrustID Services Cloud HSM 62,Cloud HSM,Third-Party,S07,External Vendor,ECDH-256,256,Key Management,0.91,0.83,0.9,0.68,0.85,0.82,0.98,TrustID Services
+A203,BankAPI Services Tokenization Service 63,Tokenization Service,Third-Party,S11,External Vendor,ECDH-256,256,Tokenization,0.87,0.78,0.88,0.7,0.81,0.75,0.98,BankAPI Services
+A204,SecureData Cloud Managed PKI 64,Managed PKI,Third-Party,S06,External Vendor,RSA-2048,2048,Digital Signature,0.95,0.76,0.9,0.8,0.83,0.71,0.98,SecureData Cloud
+A205,CyberTrust Platform Managed PKI 65,Managed PKI,Third-Party,S19,External Vendor,ECDSA-256,256,Digital Signature,0.87,0.93,0.74,0.74,0.89,0.93,0.98,CyberTrust Platform
+A206,PaymentHub Global Security Gateway 66,Security Gateway,Third-Party,S16,External Vendor,ECDH-256,256,TLS,0.75,0.63,0.79,0.79,0.68,0.68,0.98,PaymentHub Global
+A207,TransactionNet Security Gateway 67,Security Gateway,Third-Party,S05,External Vendor,ECDSA-256,256,Encryption,0.85,0.78,0.87,0.69,0.8,0.55,0.98,TransactionNet
+A208,BankAPI Services Payment Processor 68,Payment Processor,Third-Party,S06,External Vendor,ML-KEM,768,Encryption,0.84,0.79,1.0,0.9,0.31,0.49,0.05,BankAPI Services
+A209,TrustID Services Certificate Authority 69,Certificate Authority,Third-Party,S18,External Vendor,ECDSA-256,256,Digital Signature,0.93,0.85,0.8,0.83,0.87,0.7,0.98,TrustID Services
+A210,IdentityCloud Tokenization Service 70,Tokenization Service,Third-Party,S06,External Vendor,ECDH-256,256,Tokenization,0.88,0.77,0.95,0.9,0.81,0.51,0.98,IdentityCloud
+A211,NetworkSecure Global Cloud Storage Backend 01,Cloud Storage Backend,Sub-Tier,S02,Sub-Tier Vendor,AES-256,256,Data Encryption,0.91,0.7,0.93,0.75,0.37,0.77,0.18,NetworkSecure Global
+A212,DataCore Services Network Transit Provider 02,Network Transit Provider,Sub-Tier,S10,Sub-Tier Vendor,RSA-3072,3072,Digital Signature,0.83,0.64,0.81,0.73,0.71,0.72,0.97,DataCore Services
+A213,TokenCloud Infrastructure Identity Federation Backend 03,Identity Federation Backend,Sub-Tier,S07,Sub-Tier Vendor,RSA-2048,2048,Authentication,0.98,0.73,0.99,0.7,0.83,0.69,0.98,TokenCloud Infrastructure
+A214,SecureCompute Systems Signing Service 04,Signing Service,Sub-Tier,S12,Sub-Tier Vendor,RSA-2048,2048,Digital Signature,0.87,0.8,0.95,0.64,0.82,0.57,0.98,SecureCompute Systems
+A215,CertificateBackend Cloud Storage Backend 05,Cloud Storage Backend,Sub-Tier,S13,Sub-Tier Vendor,AES-256,256,Data Encryption,1.0,0.86,0.78,0.77,0.43,0.66,0.18,CertificateBackend
+A216,SecureCompute Systems Hardware Security Module 06,Hardware Security Module,Sub-Tier,S06,Sub-Tier Vendor,ECDSA-256,256,Authentication,0.86,0.65,0.92,0.74,0.73,0.63,0.98,SecureCompute Systems
+A217,CryptoInfra Systems Identity Federation Backend 07,Identity Federation Backend,Sub-Tier,S19,Sub-Tier Vendor,RSA-2048,2048,Authentication,0.86,0.98,0.83,0.74,0.91,0.74,0.98,CryptoInfra Systems
+A218,CloudCore Infrastructure Managed Database Backend 08,Managed Database Backend,Sub-Tier,S04,Sub-Tier Vendor,AES-128,128,Data Encryption,0.8,0.66,0.84,0.72,0.46,0.75,0.45,CloudCore Infrastructure
+A219,SecureCompute Systems Identity Federation Backend 09,Identity Federation Backend,Sub-Tier,S07,Sub-Tier Vendor,RSA-3072,3072,Authentication,0.9,0.76,0.92,0.85,0.81,0.77,0.97,SecureCompute Systems
+A220,CloudCore Infrastructure HSM Backend 10,HSM Backend,Sub-Tier,S20,Sub-Tier Vendor,ML-KEM,768,Key Management,0.85,0.97,0.68,0.88,0.35,0.79,0.05,CloudCore Infrastructure
+A221,SecureCompute Systems Cloud Storage Backend 11,Cloud Storage Backend,Sub-Tier,S07,Sub-Tier Vendor,AES-256,256,Data Encryption,0.84,0.69,0.94,0.84,0.35,0.73,0.18,SecureCompute Systems
+A222,SecureCompute Systems Cloud Storage Backend 12,Cloud Storage Backend,Sub-Tier,S05,Sub-Tier Vendor,AES-256,256,Data Encryption,0.94,0.68,0.92,0.78,0.37,0.84,0.18,SecureCompute Systems
+A223,SecureCompute Systems Identity Federation Backend 13,Identity Federation Backend,Sub-Tier,S19,Sub-Tier Vendor,ECC-256,256,Authentication,0.87,0.95,0.78,0.84,0.9,0.68,0.98,SecureCompute Systems
+A224,TokenCloud Infrastructure Managed Database Backend 14,Managed Database Backend,Sub-Tier,S04,Sub-Tier Vendor,AES-256,256,Data Encryption,0.83,0.68,0.88,0.78,0.35,0.64,0.18,TokenCloud Infrastructure
+A225,TrustChain Services Cloud Storage Backend 15,Cloud Storage Backend,Sub-Tier,S19,Sub-Tier Vendor,AES-256,256,Data Encryption,0.88,0.86,0.83,0.79,0.41,0.84,0.18,TrustChain Services
+A226,CryptoInfra Systems Tokenization Module 16,Tokenization Module,Sub-Tier,S05,Sub-Tier Vendor,ECDSA-256,256,Tokenization,0.9,0.66,0.93,0.73,0.76,0.69,0.98,CryptoInfra Systems
+A227,SecureCompute Systems Managed Database Backend 17,Managed Database Backend,Sub-Tier,S07,Sub-Tier Vendor,AES-128,128,Data Encryption,0.99,0.83,0.95,0.62,0.58,0.6,0.45,SecureCompute Systems
+A228,KeyVault Technologies Signing Service 18,Signing Service,Sub-Tier,S07,Sub-Tier Vendor,ML-DSA,65,Digital Signature,0.91,0.74,0.98,0.74,0.31,0.64,0.05,KeyVault Technologies
+A229,NetworkSecure Global Identity Federation Backend 19,Identity Federation Backend,Sub-Tier,S18,Sub-Tier Vendor,ECDH-256,256,Authentication,0.86,0.87,0.79,0.67,0.85,0.89,0.98,NetworkSecure Global
+A230,TrustChain Services Network Transit Provider 20,Network Transit Provider,Sub-Tier,S10,Sub-Tier Vendor,ECDH-256,256,Digital Signature,0.83,0.69,0.95,0.84,0.74,0.65,0.98,TrustChain Services
+A231,SecureCompute Systems Cloud Storage Backend 21,Cloud Storage Backend,Sub-Tier,S04,Sub-Tier Vendor,AES-256,256,Data Encryption,0.85,0.67,0.93,0.84,0.35,0.65,0.18,SecureCompute Systems
+A232,KeyVault Technologies HSM Backend 22,HSM Backend,Sub-Tier,S10,Sub-Tier Vendor,ML-KEM,768,Key Management,0.89,0.76,0.83,0.85,0.31,0.62,0.05,KeyVault Technologies
+A233,CloudCore Infrastructure Network Transit Provider 23,Network Transit Provider,Sub-Tier,S18,Sub-Tier Vendor,RSA-2048,2048,Encryption,0.87,0.94,0.78,0.79,0.9,0.57,0.98,CloudCore Infrastructure
+A234,DataCore Services Identity Federation Backend 24,Identity Federation Backend,Sub-Tier,S14,Sub-Tier Vendor,RSA-2048,2048,Authentication,0.86,0.68,0.72,0.88,0.75,0.69,0.98,DataCore Services
+A235,TrustChain Services Hardware Security Module 25,Hardware Security Module,Sub-Tier,S16,Sub-Tier Vendor,ECDH-256,256,Authentication,0.78,0.69,0.93,0.63,0.72,0.75,0.98,TrustChain Services
+A236,CloudCore Infrastructure Sub-tier KMS 26,Sub-tier KMS,Sub-Tier,S18,Sub-Tier Vendor,RSA-3072,3072,Key Management,0.97,0.99,0.71,0.85,0.96,0.83,0.97,CloudCore Infrastructure
+A237,CryptoInfra Systems Network Transit Provider 27,Network Transit Provider,Sub-Tier,S06,Sub-Tier Vendor,RSA-2048,2048,TLS,0.94,0.69,0.93,0.79,0.79,0.73,0.98,CryptoInfra Systems
+A238,DataCore Services Signing Service 28,Signing Service,Sub-Tier,S05,Sub-Tier Vendor,RSA-2048,2048,Digital Signature,0.92,0.69,0.98,0.79,0.78,0.8,0.98,DataCore Services
+A239,NetworkSecure Global Identity Federation Backend 29,Identity Federation Backend,Sub-Tier,S01,Sub-Tier Vendor,ECDSA-256,256,Authentication,0.96,0.86,1.0,0.87,0.89,0.84,0.98,NetworkSecure Global
+A240,SecureHardware Labs Identity Federation Backend 30,Identity Federation Backend,Sub-Tier,S17,Sub-Tier Vendor,ECDSA-256,256,Authentication,0.7,0.75,0.84,0.88,0.72,0.55,0.98,SecureHardware Labs
+A241,DataCore Services Tokenization Module 31,Tokenization Module,Sub-Tier,S13,Sub-Tier Vendor,ECDH-256,256,Tokenization,1.0,0.88,0.85,0.6,0.92,0.78,0.98,DataCore Services
+A242,SecureHardware Labs Sub-tier KMS 32,Sub-tier KMS,Sub-Tier,S08,Sub-Tier Vendor,ECC-256,256,Key Management,0.81,0.9,0.88,0.87,0.85,0.82,0.98,SecureHardware Labs
+A243,KeyVault Technologies Network Transit Provider 33,Network Transit Provider,Sub-Tier,S04,Sub-Tier Vendor,ECDH-256,256,Encryption,0.84,0.61,0.85,0.9,0.7,0.68,0.98,KeyVault Technologies
+A244,SecureCompute Systems Hardware Security Module 34,Hardware Security Module,Sub-Tier,S18,Sub-Tier Vendor,ECC-256,256,Encryption,0.96,0.95,0.8,0.84,0.94,0.73,0.98,SecureCompute Systems
+A245,SecureHardware Labs Identity Federation Backend 35,Identity Federation Backend,Sub-Tier,S17,Sub-Tier Vendor,ECC-256,256,Authentication,0.7,0.72,0.9,0.66,0.7,0.74,0.98,SecureHardware Labs
+A246,SecureCompute Systems Identity Federation Backend 36,Identity Federation Backend,Sub-Tier,S06,Sub-Tier Vendor,ECDSA-256,256,Authentication,0.9,0.75,0.94,0.87,0.81,0.71,0.98,SecureCompute Systems
+A247,CloudCore Infrastructure Hardware Security Module 37,Hardware Security Module,Sub-Tier,S02,Sub-Tier Vendor,ECDSA-256,256,Digital Signature,0.88,0.72,0.94,0.69,0.78,0.56,0.98,CloudCore Infrastructure
+A248,TrustChain Services Sub-tier KMS 38,Sub-tier KMS,Sub-Tier,S09,Sub-Tier Vendor,ECC-256,256,Key Management,0.89,0.94,0.79,0.9,0.91,0.88,0.98,TrustChain Services
+A249,CryptoInfra Systems Hardware Security Module 39,Hardware Security Module,Sub-Tier,S03,Sub-Tier Vendor,RSA-3072,3072,Encryption,0.91,0.76,0.99,0.79,0.81,0.7,0.97,CryptoInfra Systems
+A250,CertificateBackend Hardware Security Module 40,Hardware Security Module,Sub-Tier,S13,Sub-Tier Vendor,ECDSA-256,256,Encryption,0.99,0.89,0.76,0.76,0.92,0.74,0.98,CertificateBackend

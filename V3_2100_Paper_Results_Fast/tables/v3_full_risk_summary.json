@@ -1,0 +1,187 @@
+{
+  "dataset": {
+    "assets": 2100,
+    "services": 60,
+    "dependencies": 2862
+  },
+  "risk_methods": {
+    "Proposed Dynamic DeltaER/Cost": {
+      "strategy": "Proposed Dynamic DeltaER/Cost",
+      "migration_budget": 7.5,
+      "budget_used": 7.479999999999999,
+      "number_of_assets_migrated": 16,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5497761797517858,
+      "cumulative_delta_er": 0.052642635045555664,
+      "risk_reduction_per_cost": 0.007037785433897817,
+      "risk_reduction_percent": 8.738544307130425
+    },
+    "Business Criticality First": {
+      "strategy": "Business Criticality First",
+      "migration_budget": 7.5,
+      "budget_used": 7.499999999999999,
+      "number_of_assets_migrated": 10,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5988808216872161,
+      "cumulative_delta_er": 0.0035379931101253703,
+      "risk_reduction_per_cost": 0.0004717324146833828,
+      "risk_reduction_percent": 0.5872979102280494
+    },
+    "Direct Risk First": {
+      "strategy": "Direct Risk First",
+      "migration_budget": 7.5,
+      "budget_used": 7.5,
+      "number_of_assets_migrated": 11,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5995545199743767,
+      "cumulative_delta_er": 0.002864294822964797,
+      "risk_reduction_per_cost": 0.0003819059763953062,
+      "risk_reduction_percent": 0.47546569805067734
+    },
+    "HNDL Risk First": {
+      "strategy": "HNDL Risk First",
+      "migration_budget": 7.5,
+      "budget_used": 7.4,
+      "number_of_assets_migrated": 9,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5993158191064725,
+      "cumulative_delta_er": 0.003102995690869026,
+      "risk_reduction_per_cost": 0.0004193237420093278,
+      "risk_reduction_percent": 0.5150894385516326
+    }
+  },
+  "qars_methods": [
+    {
+      "strategy": "QARS equal",
+      "migration_budget": 7.5,
+      "budget_used": 7.330000000000001,
+      "number_of_assets_migrated": 10,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5996812935565983,
+      "cumulative_delta_er": 0.0027375212407432237,
+      "risk_reduction_per_cost": 0.00037346810924191316,
+      "risk_reduction_percent": 0.4544216039573976
+    },
+    {
+      "strategy": "QARS finance",
+      "migration_budget": 7.5,
+      "budget_used": 7.48,
+      "number_of_assets_migrated": 10,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5995302189669182,
+      "cumulative_delta_er": 0.002888595830423335,
+      "risk_reduction_per_cost": 0.0003861759131581998,
+      "risk_reduction_percent": 0.4794996038420682
+    },
+    {
+      "strategy": "Proposed Dynamic DeltaER/Cost",
+      "migration_budget": 7.5,
+      "budget_used": 7.479999999999999,
+      "number_of_assets_migrated": 16,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5497761797517858,
+      "cumulative_delta_er": 0.052642635045555664,
+      "risk_reduction_per_cost": 0.007037785433897817,
+      "risk_reduction_percent": 8.738544307130425
+    }
+  ],
+  "topology": [
+    {
+      "topology_variant": "Full Internal + Third-Party + Sub-Tier",
+      "assets": 2100,
+      "dependencies": 2862,
+      "ecosystem_risk": 0.6024188147973415,
+      "risk_change_vs_full": 0.0
+    },
+    {
+      "topology_variant": "No Sub-Tier",
+      "assets": 1760,
+      "dependencies": 2423,
+      "ecosystem_risk": 0.6112004727330411,
+      "risk_change_vs_full": 0.008781657935699627
+    },
+    {
+      "topology_variant": "Internal Only",
+      "assets": 1200,
+      "dependencies": 1643,
+      "ecosystem_risk": 0.6145581569171403,
+      "risk_change_vs_full": 0.012139342119798835
+    }
+  ],
+  "ablation": [
+    {
+      "strategy": "Proposed Dynamic DeltaER/Cost",
+      "migration_budget": 7.5,
+      "budget_used": 7.479999999999999,
+      "number_of_assets_migrated": 16,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5497761797517858,
+      "cumulative_delta_er": 0.052642635045555664,
+      "risk_reduction_per_cost": 0.007037785433897817,
+      "risk_reduction_percent": 8.738544307130425,
+      "variant": "Full dynamic DeltaER/Cost"
+    },
+    {
+      "strategy": "Static initial DeltaER/Cost",
+      "migration_budget": 7.5,
+      "budget_used": 7.379999999999999,
+      "number_of_assets_migrated": 17,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5509653127594973,
+      "cumulative_delta_er": 0.05145350203784416,
+      "risk_reduction_per_cost": 0.006972019246320347,
+      "risk_reduction_percent": 8.541151234652842,
+      "variant": "Static initial DeltaER/Cost"
+    },
+    {
+      "strategy": "Dynamic DeltaER only (no cost normalization)",
+      "migration_budget": 7.5,
+      "budget_used": 7.430000000000001,
+      "number_of_assets_migrated": 13,
+      "initial_er": 0.6024188147973415,
+      "final_er": 0.5513999663349987,
+      "cumulative_delta_er": 0.051018848462342836,
+      "risk_reduction_per_cost": 0.006866601408121511,
+      "risk_reduction_percent": 8.468999840170328,
+      "variant": "Dynamic DeltaER only (no cost normalization)"
+    }
+  ],
+  "scalability": [
+    {
+      "dataset": "V1",
+      "assets": 50,
+      "services": 10,
+      "dependency_rows": 77,
+      "unique_edges": 71,
+      "vulnerable_assets": 36,
+      "baseline_ecosystem_risk": 0.7787266434887499,
+      "path_precomputation_seconds": 0.003916042041964829,
+      "initial_all_candidate_ranking_seconds": 0.003931042039766908,
+      "cached_candidate_scoring_seconds": 1.4999997802078724e-05
+    },
+    {
+      "dataset": "V2",
+      "assets": 250,
+      "services": 20,
+      "dependency_rows": 720,
+      "unique_edges": 720,
+      "vulnerable_assets": 216,
+      "baseline_ecosystem_risk": 0.8505269300021963,
+      "path_precomputation_seconds": 0.020417624968104064,
+      "initial_all_candidate_ranking_seconds": 0.020441666012629867,
+      "cached_candidate_scoring_seconds": 2.4041044525802135e-05
+    },
+    {
+      "dataset": "V3",
+      "assets": 2100,
+      "services": 60,
+      "dependency_rows": 2862,
+      "unique_edges": 2856,
+      "vulnerable_assets": 1266,
+      "baseline_ecosystem_risk": 0.6024188147973415,
+      "path_precomputation_seconds": 0.10525100002996624,
+      "initial_all_candidate_ranking_seconds": 0.10545324999839067,
+      "cached_candidate_scoring_seconds": 0.00020224996842443943
+    }
+  ]
+}

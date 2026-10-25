@@ -1,0 +1,3 @@
+dataset,services,assets,dependency_rows,graph_nodes,graph_edges,vulnerable_assets,strongest_vulnerable_paths,baseline_ecosystem_risk,baseline_evaluation_seconds,initial_all_candidate_ranking_seconds,top_priority_asset,top_priority_score,top_delta_er
+V1,10,50,77,60,71,36,63,0.7787266434887499,0.016758041000002777,0.5709440729999642,A022,0.0513012994433768,0.0384759745825326
+V2,20,250,720,270,720,216,469,0.8505269300021965,0.04756583599998976,10.590251569999964,A032,0.007993721959545463,0.004876170395322732

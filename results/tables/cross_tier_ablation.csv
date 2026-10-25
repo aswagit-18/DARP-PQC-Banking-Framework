@@ -1,0 +1,3 @@
+scenario,repetitions,service_id,median_ms,mean_ms,p95_ms,median_json_bytes,cross_tier_signatures
+DARP-PQC without tier-gate,20,S01,80.136,79.771,83.104,20704.0,0
+DARP-PQC with cross-tier gate,20,S01,159.849,161.27,165.568,34204.0,2

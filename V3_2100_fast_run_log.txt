@@ -1,0 +1,28 @@
+2,100 ASSETS | 60 SERVICES | V3 INITIAL ER 0.602418815
+budget 2.5 Proposed Dynamic DeltaER/Cost 3.3458 assets 4
+budget 2.5 Business Criticality First 0.2241 assets 3
+budget 2.5 Direct Risk First 0.1865 assets 3
+budget 2.5 HNDL Risk First 0.2781 assets 3
+budget 5.0 Proposed Dynamic DeltaER/Cost 6.6817 assets 10
+budget 5.0 Business Criticality First 0.4935 assets 6
+budget 5.0 Direct Risk First 0.2673 assets 7
+budget 5.0 HNDL Risk First 0.4108 assets 6
+budget 7.5 Proposed Dynamic DeltaER/Cost 8.7385 assets 16
+budget 7.5 Business Criticality First 0.5873 assets 10
+budget 7.5 Direct Risk First 0.4755 assets 11
+budget 7.5 HNDL Risk First 0.5151 assets 9
+
+FINISHED V3 RISK COMPARISONS in 3.67 seconds
+                     strategy  final_er  risk_reduction_percent  budget_used
+Proposed Dynamic DeltaER/Cost  0.549776                8.738544         7.48
+   Business Criticality First  0.598881                0.587298         7.50
+            Direct Risk First  0.599555                0.475466         7.50
+              HNDL Risk First  0.599316                0.515089         7.40
+
+QARS V3
+                      strategy  final_er  risk_reduction_percent
+                   QARS equal  0.599681                0.454422
+                 QARS finance  0.599530                0.479500
+Proposed Dynamic DeltaER/Cost  0.549776                8.738544
+Elapsed 3.68 seconds; output: /Users/aswanththiruchuthan/Downloads/PQC_Banking_Risk_Framework_COMPLETE/V3_2100_Paper_Results_Fast
+Old results folder untouched.

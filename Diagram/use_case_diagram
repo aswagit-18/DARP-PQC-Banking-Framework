@@ -1,0 +1,37 @@
+digraph PQC_Use_Case {
+	bgcolor=white nodesep=0.4 rankdir=LR ranksep=0.6
+	node [fontname="Times New Roman" fontsize=10]
+	edge [fontname="Times New Roman" fontsize=8]
+	actor [label="Researcher /
+Banking Security Analyst" fillcolor="#D6EAF8" shape=box style="rounded,filled"]
+	subgraph cluster_system {
+		color="#1F4E79" fontname="Times New Roman" label="Dependency-Aware PQC Banking Risk Framework" penwidth=1.5
+		u1 [label="Load Banking Dataset" shape=ellipse]
+		u2 [label="Validate Dataset" shape=ellipse]
+		u3 [label="Configure Risk Parameters" shape=ellipse]
+		u4 [label="Calculate Direct Quantum Risk" shape=ellipse]
+		u5 [label="Build Dependency Graph" shape=ellipse]
+		u6 [label="Calculate Inherited Risk" shape=ellipse]
+		u7 [label="Calculate Ecosystem Risk" shape=ellipse]
+		u8 [label="Simulate PQC Remediation" shape=ellipse]
+		u9 [label="Calculate Delta ER" shape=ellipse]
+		u10 [label="Rank Migration Priorities" shape=ellipse]
+		u11 [label="Run Dynamic Migration Strategy" shape=ellipse]
+		u12 [label="Compare Baseline Models" shape=ellipse]
+		u13 [label="Review Results and Figures" shape=ellipse]
+	}
+	actor -> u1 [arrowhead=none]
+	actor -> u3 [arrowhead=none]
+	actor -> u10 [arrowhead=none]
+	actor -> u11 [arrowhead=none]
+	actor -> u12 [arrowhead=none]
+	actor -> u13 [arrowhead=none]
+	u1 -> u2 [label=<<include>>]
+	u2 -> u4 [label=<<include>>]
+	u4 -> u5 [label=<<include>>]
+	u5 -> u6 [label=<<include>>]
+	u6 -> u7 [label=<<include>>]
+	u8 -> u9 [label=<<include>>]
+	u9 -> u10 [label=<<include>>]
+	u10 -> u11 [label=<<include>>]
+}

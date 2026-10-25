@@ -1,0 +1,33 @@
+{
+  "openssl_version": "OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "iterations_per_scenario": 15,
+  "pqc_profiles": {
+    "standard": [
+      "ML-KEM-768",
+      "ML-DSA-65"
+    ],
+    "elevated": [
+      "ML-KEM-1024",
+      "ML-DSA-87"
+    ]
+  },
+  "risk_dataset": "V1 synthetic banking graph",
+  "risk_baseline_er": 0.7787266434887499,
+  "assessment_ms_one_shot": 343.608,
+  "policy_counts": {
+    "standard": 4,
+    "elevated": 6
+  },
+  "measurement": "End-to-end wall time for Python+OpenSSL CLI+temp files+JSON+HKDF+AES+ML-KEM+ML-DSA+access control; NOT optimized native primitive latency",
+  "conditions": "Research only: local synthetic transactions; no network, HSM, persistence, certificate validation, or production banking integration",
+  "artifact_sizes": {
+    "ML-KEM-768_ciphertext_bytes": 1088,
+    "ML-KEM-1024_ciphertext_bytes": 1568,
+    "ML-DSA-65_signature_bytes": 3309,
+    "ML-DSA-87_signature_bytes": 4627
+  },
+  "notes": "Fixed-PQC baseline is already quantum-resistant. DARP-PQC adds policy binding and risk-based security profile enforcement; does not prove superior resistance to unknown future attacks."
+}

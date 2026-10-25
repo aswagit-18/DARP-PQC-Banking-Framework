@@ -1,0 +1,50 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# VS Code settings
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+*.p8
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.zip
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Temporary experiment workspaces
+V3_2100_Paper_Results/workspace/
+V3_2100_Paper_Results_Fast/workspace/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

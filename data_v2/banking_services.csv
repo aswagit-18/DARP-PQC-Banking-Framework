@@ -1,0 +1,21 @@
+service_id,service_name,criticality,data_sensitivity
+S01,Core Banking,1.0,0.95
+S02,Mobile Banking,0.95,0.9
+S03,Internet Banking,0.95,0.9
+S04,ATM Network,0.9,0.8
+S05,Card Payments,0.98,0.9
+S06,Instant Payments,0.98,0.9
+S07,Customer Authentication,0.95,0.95
+S08,Loan Processing,0.85,0.9
+S09,KYC Service,0.9,1.0
+S10,Fraud Detection,0.92,0.9
+S11,Treasury Management,0.95,0.9
+S12,SWIFT and Interbank,1.0,0.95
+S13,Customer Data Platform,0.85,1.0
+S14,Customer Relationship Management,0.75,0.85
+S15,Open Banking APIs,0.9,0.85
+S16,Merchant Acquiring,0.9,0.85
+S17,Bill Payments,0.88,0.8
+S18,Data Warehouse and Analytics,0.82,0.95
+S19,Regulatory Reporting,0.85,0.9
+S20,Document Management,0.75,0.9

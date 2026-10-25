@@ -1,0 +1,10 @@
+variant,step,asset_id,asset_name,migration_cost,cumulative_cost,ecosystem_risk_before,ecosystem_risk_after,delta_er
+Dynamic DeltaER only (no cost normalization),1,A022,Fraud Detection API,0.75,0.75,0.7787266434887499,0.7402506689062173,0.0384759745825326
+Dynamic DeltaER only (no cost normalization),2,A016,Customer Identity Server,0.85,1.6,0.7402506689062173,0.7047489208211554,0.0355017480850619
+Dynamic DeltaER only (no cost normalization),3,A012,Card Transaction Server,0.85,2.45,0.7047489208211554,0.672667131805005,0.03208178901615033
+Dynamic DeltaER only (no cost normalization),4,A014,Instant Payment Gateway,0.8,3.25,0.672667131805005,0.6406216507139572,0.03204548109104788
+Dynamic DeltaER only (no cost normalization),5,A001,Core Banking PKI,0.8,4.05,0.6406216507139572,0.6050492495653239,0.03557240114863325
+Dynamic DeltaER only (no cost normalization),6,A009,Internet Authentication,0.75,4.8,0.6050492495653239,0.5734286318296542,0.03162061773566971
+Dynamic DeltaER only (no cost normalization),7,A008,Internet API Gateway,0.7,5.5,0.5734286318296542,0.5298460422073852,0.04358258962226902
+Dynamic DeltaER only (no cost normalization),8,A041,Cloud Sub-KMS,0.9,6.4,0.5298460422073852,0.49614963186663585,0.03369641034074933
+Dynamic DeltaER only (no cost normalization),9,A005,Mobile API Gateway,0.65,7.050000000000001,0.49614963186663585,0.4640218389768325,0.03212779288980333
